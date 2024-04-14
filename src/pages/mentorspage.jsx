@@ -1,7 +1,12 @@
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+
 export default function Mentors() {
-    return(
-        <>
-            <h1>Mentors Page</h1>
-        </>
-    )
-};
+  return (
+    <>
+      <Navbar />
+      <h1>Mentors Page</h1>
+      <Footer />
+    </>
+  );
+}
