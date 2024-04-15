@@ -5,7 +5,8 @@ import ContactMentor from "./pages/contactmentor";
 import LoginPage from "./pages/loginpage";
 import MentorDetails from "./pages/mentordetails";
 import Mentors from "./pages/mentorspage";
-import SignupPage from "./pages/signuppage";
+import SignupMentee from "./pages/signup-mentee";
+import SignupMentor from "./pages/signup-mentor";
 
 
 const router = createBrowserRouter([
@@ -14,7 +15,8 @@ const router = createBrowserRouter([
   { path: "/login", element: <LoginPage /> },
   { path: "/mentordetails", element: <MentorDetails /> },
   { path: "/mentors", element: <Mentors /> },
-  { path: "/signup", element: <SignupPage /> },
+  { path: "/signupmentee", element: <SignupMentee /> },
+  { path: "/signupmentor", element: <SignupMentor />}
 ]);
 
 function App() {

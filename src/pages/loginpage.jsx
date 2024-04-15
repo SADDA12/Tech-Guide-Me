@@ -23,11 +23,11 @@ export default function LoginPage() {
 
         <div className="px-6 py-10 w-4/5">
           <div>
-            <h1 className="font-bold text-3xl">Login</h1>
+            <h1 className="font-bold text-3xl lg:ml-52">Login</h1>
           </div>
 
-          <div className="mt-6">
-            <Tabs>
+          <div className="mt-6 lg:flex lg:justify-center lg:items-center">
+            <Tabs className="lg:w-2/4">
             <TabList className="flex justify-between border-b pb-4">
               <Tab className="w-1/2 text-center">I am a mentee</Tab>
               <Tab className="w-1/2 text-center">I am a mentor</Tab>
@@ -98,7 +98,7 @@ export default function LoginPage() {
 
             <p className="">Don't have an account?</p>
 
-            <p className="text-sm"><Link to="/signup" className="underline text-red-600">Signup as a mentee</Link> or <Link to="/signup" className="underline text-red-600">apply to be a mentor</Link> </p>
+            <p className="text-sm"><Link to="/signupmentee" className="underline text-red-600">Signup as a mentee</Link> or <Link to="/signupmentor" className="underline text-red-600">apply to be a mentor</Link> </p>
             </TabPanel>
 
 
@@ -147,7 +147,7 @@ export default function LoginPage() {
 
             <p className="">Don't have an account?</p>
 
-            <p className="text-sm"><Link to="/signup" className="underline text-red-600">Signup as a mentee</Link> or <Link to="/signup" className="underline text-red-600">apply to be a mentor</Link> </p>
+            <p className="text-sm"><Link to="/signupmentee" className="underline text-red-600">Signup as a mentee</Link> or <Link to="/signupmentor" className="underline text-red-600">apply to be a mentor</Link> </p>
     </TabPanel>
             </Tabs>
           </div>
