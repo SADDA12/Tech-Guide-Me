@@ -117,29 +117,51 @@ export default function LandingPage() {
 
 
         <section id="explore-mentors-section" className="px-6 py-10">
-            <div className="bg-green-500 my-4">
-                <p className="text-center text-xl font-semibold">Explore 100+ Available mentors</p>
+            <div className="my-4">
+                <p className="text-center text-xl font-semibold md:text-2xl">Explore 100+ Available mentors</p>
             </div>
 
-            <div className="bg-orange-300">
-                <div>
-                    <img src={webdev} alt="web development illustration" className="w-5/6" />
-                    <p className="text-center">Web Development Mentors</p>
+            <div>
+                <div className="md:flex lg:gap-8">
+                    <div className="lg:flex">
+                <div className="my-10">
+                    <Link to="">
+                    <div className="flex justify-center">
+                    <img src={webdev} alt="web development illustration" className="w-5/6 h-48 rounded-lg" />
+                    </div>
+                    <p className="text-center font-semibold mt-2 md:text-lg">Web Development Mentors</p>
+                    </Link>
                 </div>
 
-                <div>
-                    <img src={data} alt="data science illustration" className="w-5/6"/>
-                    <p className="text-center">Data Science Mentors </p>
+                <div className="my-10">
+                    <Link to="">
+                    <div className="flex justify-center">
+                    <img src={data} alt="data science illustration" className="w-5/6 h-48 rounded-lg lg:w-full"/>
+                    </div>
+                    <p className="text-center font-semibold mt-2 md:text-lg">Data Science Mentors </p>
+                    </Link>
+                </div>
+                    </div>
+
+                    <div className="lg:flex ">
+                <div className="my-10">
+                    <Link to="">
+                    <div className="flex justify-center">  
+                    <img src={uiux} alt="uiux illustration" className="w-5/6 h-48 rounded-lg lg:w-full"/>
+                    </div>
+                    <p className="text-center font-semibold mt-2 md:text-lg">UI UX Design Mentors</p>
+                    </Link>
                 </div>
 
-                <div>
-                    <img src={uiux} alt="uiux illustration" className="w-5/6"/>
-                    <p className="text-center">UI UX Design Mentors</p>
+                <div className="my-10">
+                    <Link to="">
+                    <div className="flex justify-center">
+                    <img src={cloudcomputing} alt="cloud computing illustration" className="w-5/6 h-48 rounded-lg"/>
+                    </div>
+                    <p className="text-center font-semibold mt-2 md:text-lg">Cloud Computing Mentors</p>
+                    </Link>
                 </div>
-
-                <div>
-                    <img src={cloudcomputing} alt="cloud computing illustration" className="w-5/6"/>
-                    <p className="text-center">Cloud Computing Mentors</p>
+                   </div>
                 </div>
             </div>
         </section>
