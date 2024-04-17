@@ -166,6 +166,48 @@ export default function LandingPage() {
             </div>
         </section>
 
+
+        <section className="bg-red-600 py-10">
+
+            <div className="bg-white mx-8 rounded-lg p-6 md:flex md:justify-center">
+                <div className="lg:flex lg:gap-6">
+                <div className="flex gap-4 my-6">
+                    <div><i class="fa-solid fa-magnifying-glass mt-5 text-2xl text-blue-600"></i></div>
+                    <div>
+                        <h1 className="text-2xl font-semibold">Free Trial</h1>
+                        <p className="md:text-lg">Get the first 7 days free,with every mentor</p>
+                    </div>
+                </div>
+
+                <div className="flex gap-4 my-6">
+                    <div><i class="fa-solid fa-ban mt-5 text-2xl text-red-600"></i></div>
+                    <div>
+                        <h1 className="text-2xl font-semibold">No Strings</h1>
+                        <p className="md:text-lg">Cancelling is simple and can be done anytime</p>
+                    </div>
+                </div>
+
+                <div className="flex gap-4 my-6">
+                    <div><i class="fa-solid fa-star mt-5 text-2xl text-amber-500"></i></div>
+                    <div>
+                        <h1 className="text-2xl font-semibold">Fully vetted</h1>
+                        <p className="md:text-lg">We demand the highest quality service from our mentors</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div className="flex justify-center  my-6">
+              <div>
+                  <button className="bg-gray-100 font-semibold hover:bg-red-700 text-red-600 p-2 rounded mb-2"><Link to="/mentors">Find my mentor</Link></button>
+
+                  <p className="underline"><Link to="/signupmentor">Become a mentor</Link></p>
+              </div>
+            </div>
+
+
+        </section>
+
         <Footer/>
         </>
     )
