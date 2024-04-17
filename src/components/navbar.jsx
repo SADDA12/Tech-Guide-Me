@@ -37,7 +37,7 @@ export default function Navbar() {
             </svg>
           </button>
           {isOpen && (
-            <div className="absolute right-0 mt-6 w-48 border border-gray-200 rounded-lg shadow-xl md:flex flex-col">
+            <div className="absolute right-0 mt-6 w-48 border border-gray-200 rounded-lg shadow-xl md:flex flex-col bg-gray-100">
               <div className="py-2">
                 <Link
                   to="/"
