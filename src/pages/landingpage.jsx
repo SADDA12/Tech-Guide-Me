@@ -247,7 +247,7 @@ export default function LandingPage() {
             <div className="mx-8 py-4">
                 <h1 className="text-2xl text-white font-semibold my-4 md:text-3xl lg:text-center">Still not convinced? Don't just take our word for it</h1>
                 <p className="text-white md:text-lg lg:text-center">We've already delivered 1-on-1 mentorship to thousands of students and professionals. See what others have to say</p>
-                <button className="mx-28 md:mx-0 bg-gray-100 font-semibold hover:bg-gray-300 text-red-600 p-2 rounded mt-4">Find a mentor</button>
+                <button className="mx-28 md:mx-0 bg-gray-100 font-semibold hover:bg-gray-300 text-red-600 p-2 rounded mt-4"><Link to="/mentors">Find a mentor</Link></button>
             </div>
             </div>
 
