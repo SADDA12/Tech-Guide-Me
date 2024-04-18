@@ -7,6 +7,10 @@ import webdev from "../assets/webdev.jpg";
 import data from "../assets/datascience.jpg";
 import uiux from "../assets/uiux.jpg";
 import cloudcomputing from "../assets/cloudcomputing.jpg";
+import mentee1 from "../assets/mentee1.jpeg";
+import mentee2 from "../assets/mentee2.jpeg";
+import mentee3 from "../assets/mentee3.jpeg";
+import mentee4 from "../assets/mentee4.jpeg";
 
 export default function LandingPage() {
     return(
@@ -199,10 +203,81 @@ export default function LandingPage() {
 
             <div className="flex justify-center  my-6">
               <div>
-                  <button className="bg-gray-100 font-semibold hover:bg-red-700 text-red-600 p-2 rounded mb-2"><Link to="/mentors">Find my mentor</Link></button>
+                  <button className="bg-gray-100 font-semibold hover:bg-gray-300 text-red-600 p-2 rounded mb-2"><Link to="/mentors">Find my mentor</Link></button>
 
-                  <p className="underline"><Link to="/signupmentor">Become a mentor</Link></p>
+                  <p className="underline text-white hover:text-gray-200"><Link to="/signupmentor">Become a mentor</Link></p>
               </div>
+            </div>
+
+           
+            <div className="mx-8 py-4 md:mx-20 lg:mx-72">
+                <h1 className="text-2xl text-white font-semibold my-4 md:text-3xl lg:text-center">Not sure if mentorship is right for you? Give it a try with a one-off session.</h1>
+
+                <p className="text-white md:text-lg lg:text-center">A quick, easy call with an expert is just one click away with our attractive one-off sessions. Picking a brain, talking through an issue or getting to know an industry expert has never been easier.</p>
+            </div>
+
+            <div className="lg:flex lg:justify-center">
+
+            <div className="bg-white m-8 rounded-lg p-6">
+                <h1 className="text-2xl font-semibold my-4">Introductory Call<i class="fa-solid fa-phone ml-2"></i></h1>
+
+                <p className="md:text-lg">If you're looking for a mentor, and you're just not sure about how this all works - this should be for you. In a casual, informal introductory call, a mentor will introduce themselves to you.</p>
+                <p className="font-semibold text-lg my-4">Approx. 30mins</p>
+            </div>
+
+            <div className="bg-white m-8 rounded-lg p-6">
+                <h1 className="text-2xl font-semibold my-4">Study Plan<i class="fa-solid fa-graduation-cap ml-2"></i></h1>
+
+                <p className="md:text-lg">Looking to learn a new skill? The vast amount of resources on any topic on the internet can feel overwhelming at times. A mentor can give you be for you an overview of the topic.</p>
+                <p className="font-semibold text-lg my-4">Approx. 45mins</p>
+            </div>
+
+            <div className="bg-white m-8 rounded-lg p-6">
+                <h1 className="text-2xl font-semibold my-4">Interview Preparation<i class="fa-solid fa-clipboard-question ml-2"></i></h1>
+
+                <p className="md:text-lg">Some big interviews coming up? In this 1-hour session, a mentor with hiring experience will act as a technical interviewer and ask you some standard hiring questions.</p>
+                <p className="font-semibold text-lg my-4">Approx. 60mins</p>
+            </div>
+
+            </div>
+
+            <div className="mx-8 py-4">
+                <h1 className="text-2xl text-white font-semibold my-4 md:text-3xl lg:text-center">Still not convinced? Don't just take our word for it</h1>
+                <p className="text-white md:text-lg lg:text-center">We've already delivered 1-on-1 mentorship to thousands of students and professionals. See what others have to say</p>
+            </div>
+
+            <div className="bg-white m-8 rounded-lg p-6">
+                <div className="flex gap-4 my-2">
+                    <div><img src={mentee1} alt="mentee profile" className="w-12 h-12 rounded-full"/></div>
+                    <div>
+                        <p className="font-semibold text-lg">Jessica</p>
+                        <p className="text-sm">Software Engineering Mentee</p>
+                    </div>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, incidunt voluptates! Consequuntur exercitationem similique expedita veniam incidunt cum molestias error tempore laborum beatae eum, minus sapiente quasi quam adipisci atque!</p>
+                </div>
+            </div>
+
+            <div className="bg-white m-8 rounded-lg p-6">
+                <div></div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, incidunt voluptates! Consequuntur exercitationem similique expedita veniam incidunt cum molestias error tempore laborum beatae eum, minus sapiente quasi quam adipisci atque!</p>
+                </div>
+            </div>
+
+            <div className="bg-white m-8 rounded-lg p-6">
+                <div></div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, incidunt voluptates! Consequuntur exercitationem similique expedita veniam incidunt cum molestias error tempore laborum beatae eum, minus sapiente quasi quam adipisci atque!</p>
+                </div>
+            </div>
+
+            <div className="bg-white m-8 rounded-lg p-6">
+                <div></div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, incidunt voluptates! Consequuntur exercitationem similique expedita veniam incidunt cum molestias error tempore laborum beatae eum, minus sapiente quasi quam adipisci atque!</p>
+                </div>
             </div>
 
 
