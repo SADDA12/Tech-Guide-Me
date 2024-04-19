@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+import Navbar from "../../components/navbar";
+import Footer from "../../components/footer";
 import { Link } from "react-router-dom";
-import { ReactTyped } from 'react-typed';
+import { ReactTyped } from "react-typed";
 
 import ceo from "../assets/ceo.png";
 import webdev from "../assets/webdev.jpg";
@@ -13,11 +13,10 @@ import mentee1 from "../assets/mentee1.jpeg";
 import mentee2 from "../assets/mentee2.jpeg";
 import mentee3 from "../assets/mentee3.jpeg";
 import mentee4 from "../assets/mentee4.jpeg";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination, Autoplay } from 'swiper/modules';
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination, Autoplay } from "swiper/modules";
 
 export default function LandingPage() {
   return (
@@ -34,14 +33,23 @@ export default function LandingPage() {
 
           <div className="mx-4 my-6">
             <p className="text-3xl font-semibold lg:text-4xl">1-on-1</p>
- 
- <div>
- <ReactTyped className="text-3xl font-semibold text-red-600"
-      strings={['Web development', 'Software development', 'Data', 'Cloud computing', 'UI/UX', 'Cyber security', 'Digital marketing', 'AI and Machine learning']}
-      typeSpeed={50}
-    />
- </div>
-            
+
+            <div>
+              <ReactTyped
+                className="text-3xl font-semibold text-red-600"
+                strings={[
+                  "Web development",
+                  "Software development",
+                  "Data",
+                  "Cloud computing",
+                  "UI/UX",
+                  "Cyber security",
+                  "Digital marketing",
+                  "AI and Machine learning",
+                ]}
+                typeSpeed={50}
+              />
+            </div>
 
             <p className="text-3xl font-semibold lg:text-4xl">Mentorship</p>
           </div>
@@ -74,31 +82,30 @@ export default function LandingPage() {
         </section>
 
         <section className="hidden md:block bg-red-100 w-3/12 lg:w-2/5">
-        <Swiper
-        direction={'vertical'}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination, Autoplay]}
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        className="w-full h-40"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
-   
+          <Swiper
+            direction={"vertical"}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination, Autoplay]}
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            className="w-full h-40"
+          >
+            <SwiperSlide>Slide 1</SwiperSlide>
+            <SwiperSlide>Slide 2</SwiperSlide>
+            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+            <SwiperSlide>Slide 5</SwiperSlide>
+            <SwiperSlide>Slide 6</SwiperSlide>
+            <SwiperSlide>Slide 7</SwiperSlide>
+            <SwiperSlide>Slide 8</SwiperSlide>
+            <SwiperSlide>Slide 9</SwiperSlide>
+          </Swiper>
         </section>
       </section>
 
