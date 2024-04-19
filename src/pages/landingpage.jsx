@@ -13,6 +13,11 @@ import mentee1 from "../assets/mentee1.jpeg";
 import mentee2 from "../assets/mentee2.jpeg";
 import mentee3 from "../assets/mentee3.jpeg";
 import mentee4 from "../assets/mentee4.jpeg";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination, Autoplay } from 'swiper/modules';
+
 
 export default function LandingPage() {
   return (
@@ -69,7 +74,31 @@ export default function LandingPage() {
         </section>
 
         <section className="hidden md:block bg-red-100 w-3/12 lg:w-2/5">
-          <h1>Mentor Carousel will go here</h1>
+        <Swiper
+        direction={'vertical'}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination, Autoplay]}
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        className="w-full h-40"
+      >
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide>
+      </Swiper>
+   
         </section>
       </section>
 

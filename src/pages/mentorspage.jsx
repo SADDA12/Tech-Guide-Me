@@ -84,7 +84,7 @@ export default function Mentors() {
 
           <TabPanel id="all-mentors">
             <section>
-              <div className="relative h-32 md:h-48 lg:h-64">
+              <div className="relative h-32 md:h-48 lg:h-72">
                 <div
                   className="absolute inset-0 bg-cover bg-center z-0"
                   style={{ backgroundImage: `url(${allmentors})` }}
@@ -98,7 +98,7 @@ export default function Mentors() {
 
               <div className="lg:flex">
                 <div>
-                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 bg-gray-100 border rounded">
                     <div>
                       <div className="p-2 md:flex md:gap-4">
                         <div>
@@ -117,13 +117,7 @@ export default function Mentors() {
                             10 years of experience
                           </p>
 
-                          <p className="w-[300px] my-4">
-                            As an Engineering Manager I lead a team of software
-                            developers responsible for developing and
-                            maintaining a content platform that stores and
-                            serves business information in an efficient and
-                            accurate way.
-                          </p>
+                          
                           <p className="font-semibold text-sm">
                             Software Engineering | Java | Python | Communication
                           </p>
@@ -138,7 +132,7 @@ export default function Mentors() {
                     </div>
                   </div>
 
-                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
                     <div>
                       <div className="p-2 md:flex md:gap-4">
                         <div>
@@ -157,14 +151,7 @@ export default function Mentors() {
                             10 years of experience
                           </p>
 
-                          <p className="w-[300px] my-4">
-                            I'm a passionate web developer with over 8 years of
-                            experience crafting digital experiences that engage
-                            and delight users. My journey in web development
-                            started with a curiosity for coding, and it has
-                            evolved into a deep understanding of front-end and
-                            back-end technologies.
-                          </p>
+                        
                           <p className="font-semibold text-sm">
                             Frontend | Backend | UI/UX | Version Control
                           </p>
@@ -181,7 +168,7 @@ export default function Mentors() {
                 </div>
 
                 <div>
-                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 bg-gray-100 border border-red-600 rounded">
                     <div>
                       <div className="p-2 md:flex md:gap-4">
                         <div>
@@ -200,14 +187,7 @@ export default function Mentors() {
                             10 years of experience
                           </p>
 
-                          <p className="w-[300px] my-4">
-                            As a Software Engineer with a passion for helping
-                            others achieve their career goals, I firmly believe
-                            that there is a place for everyone in technology.
-                            After transitioning into tech three years ago from a
-                            non-technical background, I know firsthand how
-                            challenging this can be.
-                          </p>
+      
                           <p className="font-semibold text-sm">
                             Confidence coaching | Career | Networking
                           </p>
@@ -222,7 +202,7 @@ export default function Mentors() {
                     </div>
                   </div>
 
-                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 bg-gray-100 border rounded">
                     <div>
                       <div className="p-2 md:flex md:gap-4">
                         <div>
@@ -241,13 +221,7 @@ export default function Mentors() {
                             10 years of experience
                           </p>
 
-                          <p className="w-[300px] my-4">
-                            Let's collaborate to unlock the secrets of SEO
-                            together. Whether you're a beginner or an
-                            experienced professional, I'll guide you on a
-                            transformative learning journey to elevate your SEO
-                            expertise and drive tangible results.
-                          </p>
+                        
                           <p className="font-semibold text-sm">
                             SEO | Data Analytics | Digital marketing
                           </p>
@@ -268,21 +242,21 @@ export default function Mentors() {
 
           <TabPanel id="web-development-design">
             <section>
-            <div className="relative h-32 md:h-48 lg:h-64">
+            <div className="relative h-32 md:h-48 lg:h-72">
                 <div
                   className="absolute inset-0 bg-cover bg-center z-0"
                   style={{ backgroundImage: `url(${webdev})` }}
                 ></div>
                 <div className="relative z-10">
-                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
-                    Web Development & Wed Design Mentors
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28 lg:font-bold lg:text-4xl">
+                    Web Development & Web Design Mentors
                   </h1>
                 </div>
               </div>
 
               <div className="lg:flex">
                 <div>
-                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border rounded">
                     <div>
                       <div className="p-2 md:flex md:gap-4">
                         <div>
@@ -454,13 +428,13 @@ export default function Mentors() {
 
           <TabPanel id="software-development">
             <section>
-            <div className="relative h-32 md:h-48 lg:h-64">
+            <div className="relative h-32 md:h-48 lg:h-72">
                 <div
                   className="absolute inset-0 bg-cover bg-center z-0"
                   style={{ backgroundImage: `url(${softwaredev})` }}
                 ></div>
                 <div className="relative z-10">
-                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-4xl lg:font-bold lg:pt-28">
                     Software Development Mentors
                   </h1>
                 </div>
@@ -640,13 +614,13 @@ export default function Mentors() {
 
           <TabPanel id="data-mentors">
             <section>
-            <div className="relative h-32 md:h-48 lg:h-64">
+            <div className="relative h-32 md:h-48 lg:h-72">
                 <div
                   className="absolute inset-0 bg-cover bg-center z-0"
                   style={{ backgroundImage: `url(${data})` }}
                 ></div>
                 <div className="relative z-10">
-                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-4xl lg:font-bold lg:pt-28">
                     Data Analytics & Data Science Mentors
                   </h1>
                 </div>
@@ -826,13 +800,13 @@ export default function Mentors() {
 
           <TabPanel id="cloud-computing">
             <section>
-            <div className="relative h-32 md:h-48 lg:h-64">
+            <div className="relative h-32 md:h-48 lg:h-72">
                 <div
                   className="absolute inset-0 bg-cover bg-center z-0"
                   style={{ backgroundImage: `url(${cloudcomputing})` }}
                 ></div>
                 <div className="relative z-10">
-                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-4xl lg:font-bold lg:pt-28">
                     Cloud Computing Mentors
                   </h1>
                 </div>
@@ -1012,13 +986,13 @@ export default function Mentors() {
 
           <TabPanel id="cybersecurity">
             <section>
-            <div className="relative h-32 md:h-48 lg:h-64">
+            <div className="relative h-32 md:h-48 lg:h-72">
                 <div
                   className="absolute inset-0 bg-cover bg-center z-0"
                   style={{ backgroundImage: `url(${cybersec})` }}
                 ></div>
                 <div className="relative z-10">
-                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-4xl lg:font-bold lg:pt-28">
                     Cyber Security Mentors
                   </h1>
                 </div>
@@ -1198,13 +1172,13 @@ export default function Mentors() {
 
           <TabPanel id="digital-marketing">
             <section>
-            <div className="relative h-32 md:h-48 lg:h-64">
+            <div className="relative h-32 md:h-48 lg:h-72">
                 <div
                   className="absolute inset-0 bg-cover bg-center z-0"
                   style={{ backgroundImage: `url(${digmarketing})` }}
                 ></div>
                 <div className="relative z-10">
-                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-4xl lg:font-bold lg:pt-28">
                     Digital Marketing Mentors
                   </h1>
                 </div>
@@ -1384,13 +1358,13 @@ export default function Mentors() {
 
           <TabPanel id="ai-machine-learning">
             <section>
-            <div className="relative h-32 md:h-48 lg:h-64">
+            <div className="relative h-32 md:h-48 lg:h-72">
                 <div
                   className="absolute inset-0 bg-cover bg-center z-0"
                   style={{ backgroundImage: `url(${aimachine})` }}
                 ></div>
                 <div className="relative z-10">
-                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-4xl lg:font-bold lg:pt-28">
                     AI & Machine Learning Mentors
                   </h1>
                 </div>
