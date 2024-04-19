@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+import redhorizontal from "../assets/redhorizantal.png";
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -10,9 +12,11 @@ export default function Navbar() {
 
   return (
     <>
-      <section className="flex justify-between px-2.5 py-2.5 bg-gray-50 border-b lg:py-4">
+      <section className="flex justify-between px-2.5 py-2 bg-gray-50 border-b lg:py-2">
         <div>
-          <h1 className="text-red-600 font-bold md:text-2xl md:mt-2 lg:text-3xl lg:mt-0">LOGO</h1>
+          <Link to="/">
+          <img src={redhorizontal} alt="logo" className="w-36 h-10 md:w-48 md:h-12 lg:w-56 lg:h-16"/>
+          </Link>
         </div>
 
 
@@ -22,7 +26,7 @@ export default function Navbar() {
             className="text-xs focus:outline-none"
           >
             <svg
-              className="w-6 h-6"
+              className="w-6 h-6 mt-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -136,7 +140,7 @@ export default function Navbar() {
 
         <div className="hidden md:hidden lg:block lg:flex lg:gap-12">
 
-        <div>
+        <div className="lg:pt-2">
             <form class="d-flex" role="search" className="flex">
               <input
                 class="form-control me-1 h-10 w-80 border border-gray-300 rounded p-2"
@@ -150,7 +154,7 @@ export default function Navbar() {
             </form>
           </div>
 
-          <div className="flex gap-8 mr-12">
+          <div className="flex gap-8 mr-12 lg:pt-2">
             <Link
               to="/"
               className="text-base hover:text-red-600 pt-1.5"
@@ -158,7 +162,7 @@ export default function Navbar() {
               Home
             </Link>
 
-            <button className="bg-red-600 hover:bg-red-700 text-white px-3 rounded">
+            <button className="bg-red-600 hover:bg-red-700 text-white px-3 rounded lg:h-12">
             <Link
               to="/mentors"
               className="text-base"

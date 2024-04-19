@@ -86,7 +86,7 @@ export default function Mentors() {
             <section>
               <div className="relative h-32 md:h-48 lg:h-64">
                 <div
-                  className="absolute inset-0 bg-cover bg-center bg-contain bg-no-repeat z-0"
+                  className="absolute inset-0 bg-cover bg-center z-0"
                   style={{ backgroundImage: `url(${allmentors})` }}
                 ></div>
                 <div className="relative z-10">
@@ -270,7 +270,7 @@ export default function Mentors() {
             <section>
             <div className="relative h-32 md:h-48 lg:h-64">
                 <div
-                  className="absolute inset-0 bg-cover bg-center bg-contain z-0"
+                  className="absolute inset-0 bg-cover bg-center z-0"
                   style={{ backgroundImage: `url(${webdev})` }}
                 ></div>
                 <div className="relative z-10">

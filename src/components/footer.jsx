@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+import redhorizontal from "../assets/redhorizantal.png";
 
 export default function Footer() {
     return(
@@ -7,9 +10,9 @@ export default function Footer() {
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap text-left lg:text-left">
           <div class="w-full lg:w-6/12 px-4">
-            <h4 class="text-3xl font-semibold text-red-600">
-              LOGO
-            </h4>
+            <Link to="/">
+            <img src={redhorizontal} alt="logo" className="w-44 h-14 md:w-52 md:h-16 lg:w-60 lg:h-20"/>
+            </Link>
             <h5 class="text-lg mt-0 mb-2">
               Your trusted source to find highly vetted mentors & industry professionals to move your career ahead.
             </h5>
@@ -113,7 +116,7 @@ export default function Footer() {
             <div class="text-sm font-semibold py-1">
               Copyright © <span id="get-current-year">2024</span>{" "}
               <a href="/" class="text-red-600 hover:underline">
-                Companyname
+                TechMentor
               </a>
               .All Rights Reserved
             </div>
