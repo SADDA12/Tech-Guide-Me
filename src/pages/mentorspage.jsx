@@ -16,6 +16,15 @@ import mentor10 from "../assets/mentor10.jpeg";
 import mentor11 from "../assets/mentor11.jpeg";
 import mentor12 from "../assets/mentor12.jpeg";
 
+import aimachine from "../assets/aimachinelearning.jpeg";
+import digmarketing from "../assets/digmarketing.jpeg";
+import cybersec from "../assets/cybersec.jpeg";
+import cloudcomputing from "../assets/cloudcomputing.jpeg";
+import data from "../assets/data.jpeg";
+import softwaredev from "../assets/softwaredevelopment.jpeg";
+import webdev from "../assets/webdev.jpg";
+import allmentors from "../assets/allmentors.jpeg";
+
 export default function Mentors() {
   return (
     <>
@@ -74,1098 +83,1488 @@ export default function Mentors() {
           </TabList>
 
           <TabPanel id="all-mentors">
-          <section>
-              <h1 className="text-xl text-center font-semibold">
-                All Mentors
-              </h1>
+            <section>
+              <div className="relative h-32 md:h-48 lg:h-64">
+                <div
+                  className="absolute inset-0 bg-cover bg-center bg-contain bg-no-repeat z-0"
+                  style={{ backgroundImage: `url(${allmentors})` }}
+                ></div>
+                <div className="relative z-10">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                    All Mentors
+                  </h1>
+                </div>
+              </div>
 
-     <div className="lg:flex">
-          <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+              <div className="lg:flex">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor1}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor12}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Engineering Manager at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            As an Engineering Manager I lead a team of software
+                            developers responsible for developing and
+                            maintaining a content platform that stores and
+                            serves business information in an efficient and
+                            accurate way.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Software Engineering | Java | Python | Communication
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">$180</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor1}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-            </div>
 
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor1}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor6}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Lilian Umeakunne
+                          </h1>
+                          <p>Software Engineer at Accenture</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            As a Software Engineer with a passion for helping
+                            others achieve their career goals, I firmly believe
+                            that there is a place for everyone in technology.
+                            After transitioning into tech three years ago from a
+                            non-technical background, I know firsthand how
+                            challenging this can be.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Confidence coaching | Career | Networking
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">$150</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor3}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Josep M Felip
+                          </h1>
+                          <p>SEO Manager at Learning Technologies Group plc</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            Let's collaborate to unlock the secrets of SEO
+                            together. Whether you're a beginner or an
+                            experienced professional, I'll guide you on a
+                            transformative learning journey to elevate your SEO
+                            expertise and drive tangible results.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            SEO | Data Analytics | Digital marketing
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">$300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-
-            <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor1}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor1}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-    </div>
             </section>
           </TabPanel>
 
           <TabPanel id="web-development-design">
             <section>
-              <h1 className="text-xl text-center font-semibold">
-                Web Development & Design Mentors
-              </h1>
+            <div className="relative h-32 md:h-48 lg:h-64">
+                <div
+                  className="absolute inset-0 bg-cover bg-center bg-contain z-0"
+                  style={{ backgroundImage: `url(${webdev})` }}
+                ></div>
+                <div className="relative z-10">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                    Web Development & Wed Design Mentors
+                  </h1>
+                </div>
+              </div>
 
               <div className="lg:flex">
-          <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor2}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor2}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded"><Link to="/mentordetails">View profile</Link></button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            <Link to="/mentordetails">View profile</Link>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor3}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-            </div>
 
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor3}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor4}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor5}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-
-            <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor4}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor5}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-    </div>
             </section>
           </TabPanel>
 
           <TabPanel id="software-development">
-          <section>
-              <h1 className="text-xl text-center font-semibold">
-                Software Development Mentors
-              </h1>
+            <section>
+            <div className="relative h-32 md:h-48 lg:h-64">
+                <div
+                  className="absolute inset-0 bg-cover bg-center z-0"
+                  style={{ backgroundImage: `url(${softwaredev})` }}
+                ></div>
+                <div className="relative z-10">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                    Software Development Mentors
+                  </h1>
+                </div>
+              </div>
 
               <div className="lg:flex">
-          <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor6}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor6}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor7}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-            </div>
 
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor7}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor8}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor9}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-
-            <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor8}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor9}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-    </div>
             </section>
           </TabPanel>
 
           <TabPanel id="data-mentors">
-          <section>
-              <h1 className="text-xl text-center font-semibold">
-                Data Mentors
-              </h1>
+            <section>
+            <div className="relative h-32 md:h-48 lg:h-64">
+                <div
+                  className="absolute inset-0 bg-cover bg-center z-0"
+                  style={{ backgroundImage: `url(${data})` }}
+                ></div>
+                <div className="relative z-10">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                    Data Analytics & Data Science Mentors
+                  </h1>
+                </div>
+              </div>
 
               <div className="lg:flex">
-          <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor10}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor10}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor11}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-            </div>
 
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor11}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor12}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor1}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-
-            <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor12}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor1}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-    </div>
             </section>
           </TabPanel>
 
           <TabPanel id="cloud-computing">
-          <section>
-              <h1 className="text-xl text-center font-semibold">
-                Cloud Computing Mentors
-              </h1>
+            <section>
+            <div className="relative h-32 md:h-48 lg:h-64">
+                <div
+                  className="absolute inset-0 bg-cover bg-center z-0"
+                  style={{ backgroundImage: `url(${cloudcomputing})` }}
+                ></div>
+                <div className="relative z-10">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                    Cloud Computing Mentors
+                  </h1>
+                </div>
+              </div>
 
               <div className="lg:flex">
-          <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor2}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor2}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor3}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-            </div>
 
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor3}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor4}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor5}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-
-            <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor4}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor5}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-    </div>
             </section>
           </TabPanel>
 
           <TabPanel id="cybersecurity">
-          <section>
-              <h1 className="text-xl text-center font-semibold">
-                CyberSecurity Mentors
-              </h1>
+            <section>
+            <div className="relative h-32 md:h-48 lg:h-64">
+                <div
+                  className="absolute inset-0 bg-cover bg-center z-0"
+                  style={{ backgroundImage: `url(${cybersec})` }}
+                ></div>
+                <div className="relative z-10">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                    Cyber Security Mentors
+                  </h1>
+                </div>
+              </div>
 
               <div className="lg:flex">
-          <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor6}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor6}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor7}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-            </div>
 
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor7}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor8}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor9}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-
-            <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor8}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor9}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-    </div>
             </section>
           </TabPanel>
 
           <TabPanel id="digital-marketing">
-          <section>
-              <h1 className="text-xl text-center font-semibold">
-                Web Development & Design Mentors
-              </h1>
+            <section>
+            <div className="relative h-32 md:h-48 lg:h-64">
+                <div
+                  className="absolute inset-0 bg-cover bg-center z-0"
+                  style={{ backgroundImage: `url(${digmarketing})` }}
+                ></div>
+                <div className="relative z-10">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                    Digital Marketing Mentors
+                  </h1>
+                </div>
+              </div>
 
               <div className="lg:flex">
-          <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor10}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor10}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor11}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-            </div>
 
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor11}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor12}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor1}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-
-            <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor12}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor1}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-    </div>
             </section>
           </TabPanel>
 
           <TabPanel id="ai-machine-learning">
-          <section>
-              <h1 className="text-xl text-center font-semibold">
-                AI & Machine Learning Mentors
-              </h1>
+            <section>
+            <div className="relative h-32 md:h-48 lg:h-64">
+                <div
+                  className="absolute inset-0 bg-cover bg-center z-0"
+                  style={{ backgroundImage: `url(${aimachine})` }}
+                ></div>
+                <div className="relative z-10">
+                  <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
+                    AI & Machine Learning Mentors
+                  </h1>
+                </div>
+              </div>
 
               <div className="lg:flex">
-          <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor2}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor2}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor3}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-            </div>
 
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                 <div>
-                  <div className="p-2 md:flex md:gap-4">
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
                     <div>
-                    <img
-                      src={mentor3}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor4}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
 
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
+                    <div>
+                      <div className="p-2 md:flex md:gap-4">
+                        <div>
+                          <img
+                            src={mentor5}
+                            alt="mentor profile"
+                            className="rounded w-full md:h-48"
+                          />
+                        </div>
+                        <div>
+                          <h1 className="font-semibold text-lg">
+                            Micheal Kors
+                          </h1>
+                          <p>Senior Web developer at Yelp</p>
+                          <p className="hidden md:block">
+                            10 years of experience
+                          </p>
+
+                          <p className="w-[300px] my-4">
+                            I'm a passionate web developer with over 8 years of
+                            experience crafting digital experiences that engage
+                            and delight users. My journey in web development
+                            started with a curiosity for coding, and it has
+                            evolved into a deep understanding of front-end and
+                            back-end technologies.
+                          </p>
+                          <p className="font-semibold text-sm">
+                            Frontend | Backend | UI/UX | Version Control
+                          </p>
+                          <p className="font-semibold">
+                            <span className="text-xl">Ghs300</span> / month
+                          </p>
+                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            View profile
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-
-            <div>
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor4}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border border-red-600 rounded">
-                <div>
-                  <div className="p-2 md:flex md:gap-4">
-                    <div>
-                    <img
-                      src={mentor5}
-                      alt="mentor profile"
-                      className="rounded w-full md:h-48"
-                    />
-                    </div>
-                    <div>
-                    <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                    <p>Senior Web developer at Yelp</p>
-                    <p className="hidden md:block">10 years of experience</p>
-
-                    <p className="w-[300px] my-4"> 
-                      I'm a passionate web developer with over 8 years of
-                      experience crafting digital experiences that engage and
-                      delight users. My journey in web development started with
-                      a curiosity for coding, and it has evolved into a deep
-                      understanding of front-end and back-end technologies.
-                    </p>
-                    <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
-                    <p className="font-semibold"><span className="text-xl">Ghs300</span> / month</p>
-                    <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">View profile</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-    </div>
             </section>
           </TabPanel>
         </Tabs>
