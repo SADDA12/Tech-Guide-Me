@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import googleicon from "../assets/googleicon.png";
+import googleicon from "../../assets/googleicon.png";
 
 export default function SignupMentee() {
   const [formData, setFormData] = useState({
@@ -178,7 +178,7 @@ export default function SignupMentee() {
           <div>
         <p className="text-sm md:text-base my-1">Already have an account? <Link to="/login" className="underline text-red-600">Log in</Link></p>
 
-        <p className="text-xs md:text-base">Looking to join us as a mentor? <Link className="underline text-red-600">Apply Now</Link></p>
+        <p className="text-xs md:text-base">Looking to join us as a mentor? <Link to="/signupmentor" className="underline text-red-600">Apply Now</Link></p>
       </div>
         </form>
         

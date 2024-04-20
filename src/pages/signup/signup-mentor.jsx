@@ -1,7 +1,7 @@
 export default function SignupMentor() {
     return(
         <>
-            <h1>Signup Page for mentor</h1>
+            <h1>Signup Page for mentoggvhgr</h1>
         </>
     )
 };

@@ -4,7 +4,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 
-import MenteeDashboardNavbar from "../../components/navbar/menteenavbar"
+import MenteeDashboardNavbar from "../../components/navbar/menteenavbar.jsx";
+import MenteeDashboardFooter from "../../components/footer/menteefooter.jsx";
+
 export default function MenteeDashboard() {
     return(
         <>
@@ -77,6 +79,35 @@ export default function MenteeDashboard() {
                 </div>
             </div>
         </section>
+
+        <section className="py-6 px-4 md:px-12 lg:px-20">
+            <h1 className="font-semibold text-center lg:text-2xl">Frequently Asked Questions</h1>
+
+        <div className="md:flex md:justify-center md:gap-10">
+            <div className="md:w-1/2">
+            <div className="my-4">
+                <h4 className="font-semibold lg:text-xl bg-red-50">How can i get in touch with a mentor?</h4>
+                <p>We offer two main ways to get in touch with a mentor, the regular long-term mentorship through application, and by booking a session</p>
+            </div>
+
+            <div className="my-4">
+                <h4 className="font-semibold lg:text-xl bg-red-50">How much do mentors cost? How does pricing work?</h4>
+                <p>Each mentor offers multiple pricing tiers and has different offers. With the mentorship subscription, you'll get charged the monthly fee of the mentor you're subscribed to. If you book a session, you'll be charged the price of the session once.</p>
+            </div>
+            </div>
+
+            <div className="md:w-1/2">
+            <div className="my-4">
+                <h4 className="font-semibold lg:text-xl bg-red-50">What can I expect from mentors?</h4>
+                <p>Mentors are vetted and continuously evaluated based on their performances, with the goal to only have the best mentors available to you. Their goal is to get you closer to your goal with the services booked in your plan.
+                 However, mentors are professionals in the industry, offering their free time to help you reach your goals. You'll typically receive replies within a few hours and will have pre-scheduled meetings with your mentor, they cannot be available to you 24/7.</p>
+            </div>
+            </div>
+
+        </div>
+
+        </section>
+        <MenteeDashboardFooter/>
         </>
     )
 }

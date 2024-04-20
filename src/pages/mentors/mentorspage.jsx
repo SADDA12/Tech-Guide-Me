@@ -1,5 +1,6 @@
-import Navbar from "../../components/navbar/navbar.jsx";
-import Footer from "../../components/footer/footer.jsx";
+import MenteeDashboardNavbar from "../../components/navbar/menteenavbar.jsx";
+import MenteeDashboardFooter from "../../components/footer/menteefooter.jsx";
+
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 
 import AllMentors from "../../components/mentors/allmentors.jsx";
@@ -14,7 +15,7 @@ import AiMachineLearningMentors from "../../components/mentors/aimachinelearning
 export default function Mentors() {
   return (
     <>
-      <Navbar />
+      <MenteeDashboardNavbar />
 
       <section className="border-b py-4">
         <Tabs>
@@ -102,7 +103,7 @@ export default function Mentors() {
         </Tabs>
       </section>
 
-      <Footer />
+      <MenteeDashboardFooter />
     </>
   );
 }

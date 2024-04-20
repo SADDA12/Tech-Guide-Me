@@ -5,8 +5,8 @@ import ContactMentor from "./pages/contactmentor";
 import LoginPage from "./pages/login/loginpage.jsx";
 import MentorDetails from "./pages/mentordetails";
 import Mentors from "./pages/mentors/mentorspage.jsx";
-import SignupMentee from "./pages/signup-mentee";
-import SignupMentor from "./pages/signup-mentor";
+import SignupMentee from "./pages/signup/signup-mentee.jsx";
+import SignupMentor from "./pages/signup/signup-mentor.jsx";
 import MenteeDashboard from "./pages/menteedashboard/menteedashboard.jsx";
 
 const router = createBrowserRouter([
