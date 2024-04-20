@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import redhorizontal from "../assets/redhorizantal.png";
+import redhorizontal from "../../assets/redhorizantal.png";
 
 export default function Footer() {
     return(

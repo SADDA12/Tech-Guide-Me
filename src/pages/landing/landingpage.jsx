@@ -1,18 +1,18 @@
 import React from "react";
-import Navbar from "../../components/navbar";
-import Footer from "../../components/footer";
+import Navbar from "../../components/navbar/navbar";
+import Footer from "../../components/footer/footer";
 import { Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 
-import ceo from "../assets/ceo.png";
-import webdev from "../assets/webdev.jpg";
-import data from "../assets/datascience.jpg";
-import uiux from "../assets/uiux.jpg";
-import cloudcomputing from "../assets/cloudcomputing.jpg";
-import mentee1 from "../assets/mentee1.jpeg";
-import mentee2 from "../assets/mentee2.jpeg";
-import mentee3 from "../assets/mentee3.jpeg";
-import mentee4 from "../assets/mentee4.jpeg";
+import ceo from "../../assets/ceo.png";
+import webdev from "../../assets/webdev.jpg";
+import data from "../../assets/datascience.jpg";
+import uiux from "../../assets/uiux.jpg";
+import cloudcomputing from "../../assets/cloudcomputing.jpg";
+import mentee1 from "../../assets/mentee1.jpeg";
+import mentee2 from "../../assets/mentee2.jpeg";
+import mentee3 from "../../assets/mentee3.jpeg";
+import mentee4 from "../../assets/mentee4.jpeg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -55,9 +55,15 @@ export default function LandingPage() {
           </div>
 
           <div className="mx-4">
-            <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
-              <Link to="/mentors" className="text-base">
+            <button className="bg-red-600 mr-2 font-semibold hover:bg-red-700 text-white p-2 rounded">
+              <Link to="/login" className="text-base">
                 Find Mentors
+              </Link>
+            </button>
+
+            <button className="bg-red-600 mx-2 font-semibold hover:bg-red-700 text-white p-2 rounded">
+              <Link to="/signupmentor" className="text-base">
+                Become A Mentor
               </Link>
             </button>
 
@@ -193,7 +199,7 @@ export default function LandingPage() {
                 </div>
 
                 <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded my-2">
-                  <Link to="/mentors">Find a mentor</Link>
+                  <Link to="/login">Find a mentor</Link>
                   <i class="fa-solid fa-arrow-right ml-2"></i>
                 </button>
               </div>
@@ -322,7 +328,7 @@ export default function LandingPage() {
         <div className="flex justify-center  my-6">
           <div>
             <button className="bg-gray-100 font-semibold hover:bg-gray-300 text-red-600 p-2 rounded mb-2">
-              <Link to="/mentors">Find my mentor</Link>
+              <Link to="/login">Find my mentor</Link>
             </button>
 
             <p className="underline text-white hover:text-gray-200">
@@ -397,7 +403,7 @@ export default function LandingPage() {
                 students and professionals. See what others have to say
               </p>
               <button className="mx-28 md:mx-0 bg-gray-100 font-semibold hover:bg-gray-300 text-red-600 p-2 rounded mt-4">
-                <Link to="/mentors">Find a mentor</Link>
+                <Link to="/login">Find a mentor</Link>
               </button>
             </div>
           </div>

@@ -4,9 +4,10 @@ import LandingPage from "./pages/landing/landingpage.jsx";
 import ContactMentor from "./pages/contactmentor";
 import LoginPage from "./pages/login/loginpage.jsx";
 import MentorDetails from "./pages/mentordetails";
-import Mentors from "./pages/mentorspage";
+import Mentors from "./pages/mentors/mentorspage.jsx";
 import SignupMentee from "./pages/signup-mentee";
 import SignupMentor from "./pages/signup-mentor";
+import MenteeDashboard from "./pages/menteedashboard/menteedashboard.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <LandingPage /> },
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
   { path: "/mentors", element: <Mentors /> },
   { path: "/signupmentee", element: <SignupMentee /> },
   { path: "/signupmentor", element: <SignupMentor /> },
+  { path: "/menteedashboard", element: <MenteeDashboard /> },
 ]);
 
 function App() {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import redhorizontal from "../assets/redhorizantal.png";
+import redhorizontal from "../../assets/redhorizantal.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,15 +44,10 @@ export default function Navbar() {
             <div className="absolute right-0 mt-6 w-48 border border-gray-200 rounded-lg shadow-xl md:flex flex-col bg-gray-100">
               <div className="py-2">
                 <Link
-                  to="/"
+                  to="/signupmentee"
                   className="block text-sm px-4 py-2"
                 >
-                  Home
-                </Link>
-                <Link
-                  to="/mentors"
-                  className="block text-sm px-4 py-2 "
-                >Browse all mentors
+                  Create An Account
                 </Link>
                 <Link
                   to="/login"
@@ -103,24 +98,19 @@ export default function Navbar() {
             </svg>
           </button>
           {isOpen && (
-            <div className="absolute right-0 mt-6 w-48 border border-gray-200 rounded-lg shadow-xl md:flex flex-col">
+            <div className="absolute right-0 mt-6 w-48 border border-gray-200 rounded-lg shadow-xl md:flex flex-col bg-gray-100">
               <div className="py-2">
                 <Link
-                  to="/"
+                  to="/signupmentee"
                   className="block text-base px-4 py-2"
                 >
-                  Home
-                </Link>
-                <Link
-                  to="/mentors"
-                  className="block text-base px-4 py-2 "
-                >Browse all mentors
+                  Create An Account
                 </Link>
                 <Link
                   to="/login"
                   className="block text-base px-4 py-2 "
                 >
-                  Login
+                  Login/s
                 </Link>
               </div>
             </div>
@@ -155,19 +145,14 @@ export default function Navbar() {
           </div>
 
           <div className="flex gap-8 mr-12 lg:pt-2">
-            <Link
-              to="/"
-              className="text-base hover:text-red-600 pt-1.5"
-            >
-              Home
-            </Link>
+           
 
             <button className="bg-red-600 hover:bg-red-700 text-white px-3 rounded lg:h-12">
             <Link
-              to="/mentors"
+              to="/signupmentee"
               className="text-base"
             >
-              Browse All Mentors
+              Create An Account
             </Link>
             </button>
 
