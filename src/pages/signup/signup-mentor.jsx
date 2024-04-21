@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import MentorSignupContactInfo from "../../components/signup/mentorsignupcontactinfo.jsx";
 import MentorSignupEmploymentInfo from "../../components/signup/mentorsignupemploymentinfo.jsx";
@@ -39,7 +40,7 @@ export default function SignupMentor() {
                         </p>
 
                         <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-                            Submit
+                            <Link to="/mentordashboard">Submit</Link>
                         </button>
                      </div>
                 </div>

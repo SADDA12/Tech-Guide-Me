@@ -8,6 +8,9 @@ import Mentors from "./pages/mentors/mentorspage.jsx";
 import SignupMentee from "./pages/signup/signup-mentee.jsx";
 import SignupMentor from "./pages/signup/signup-mentor.jsx";
 import MenteeDashboard from "./pages/menteedashboard/menteedashboard.jsx";
+import MentorDashboard from "./pages/mentordashboard/mentordashboard.jsx";
+import MyMenteesPage from "./pages/mentordashboard/mymenteespage.jsx";
+import MentorMessages from "./pages/mentordashboard/messages.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <LandingPage /> },
@@ -18,6 +21,9 @@ const router = createBrowserRouter([
   { path: "/signupmentee", element: <SignupMentee /> },
   { path: "/signupmentor", element: <SignupMentor /> },
   { path: "/menteedashboard", element: <MenteeDashboard /> },
+  { path: "/mentordashboard", element: <MentorDashboard /> },
+  { path: "/mymentees", element: <MyMenteesPage /> },
+  { path: "/mentormessages", element: <MentorMessages /> },
 ]);
 
 function App() {
