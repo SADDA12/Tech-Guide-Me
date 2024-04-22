@@ -41,7 +41,7 @@ export default function MentorDashboardSidebar() {
                   Settings
                 </Link>
                 <Link
-                  to=""
+                  to="/login"
                   className="block text-lg hover:text-red-600 mb-4"
                 >
                   <i class="fa-solid fa-lock mr-2"></i>

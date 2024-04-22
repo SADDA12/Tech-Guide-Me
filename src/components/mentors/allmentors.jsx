@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import mentor1 from "../../assets/m1.png";
 import mentor3 from "../../assets/m3.png";
 import mentor6 from "../../assets/m6.png";
@@ -49,7 +51,9 @@ export default function AllMentors() {
                             <span className="text-xl">Ghs300</span> / month
                           </p>
                           <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
+                            <Link to="/mentordetails">
                             View profile
+                            </Link>
                           </button>
                         </div>
                       </div>

@@ -48,7 +48,7 @@ export default function MenteeDashboardNavbar() {
                   to=""
                   className="block text-sm px-4 py-2"
                 >
-                  Mentors
+                  My Mentors
                 </Link>
                 <Link
                   to=""
@@ -91,7 +91,7 @@ export default function MenteeDashboardNavbar() {
               to=""
               className="text-white text-base hover:text-lg hover:underline pt-3"
             >
-              Mentors
+              My Mentors
             </Link>
 
             <Link
