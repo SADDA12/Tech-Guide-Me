@@ -26,7 +26,11 @@ export default function LandingPage() {
     <>
       <Navbar />
 
-      <section id="hero-section" className="flex">
+      <section id="hero-section" className="h-14 bg-gradient-to-b from-black to-purple-900">
+        <h1>Hero section goes here</h1>
+      </section>
+
+      <section className="flex">
         <section className="py-4 lg:py-12 md:w-9/12 lg:w-3/5">
           <div className="mx-4 my-6">
             <p className="text-sm md:text-base lg:text-lg">
