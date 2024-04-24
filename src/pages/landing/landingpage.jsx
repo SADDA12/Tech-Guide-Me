@@ -26,24 +26,26 @@ export default function LandingPage() {
     <>
       <Navbar />
 
-      <section id="hero-section" className="h-14 bg-gradient-to-b from-black to-purple-900">
-        <h1>Hero section goes here</h1>
+      <section id="hero-section" className="bg-gradient-to-b from-black to-purple-900 py-16 px-10 lg:px-56">
+        <div className="bg-purple-950 border border-violet-200 rounded">
+        <h1 className="text-white p-2 text-center">Tech Guide Me! An all-in-one platform for tech enthusiasts and mentoring packages at a flexible price<i class="fa-solid fa-sack-dollar ml-2"></i></h1>
+        </div>
       </section>
 
-      <section className="flex">
-        <section className="py-4 lg:py-12 md:w-9/12 lg:w-3/5">
+      <section className="flex bg-gradient-to-b from-purple-900 to-black">
+        <section className="py-4 lg:py-12 md:w-9/12 lg:w-1/2">
           <div className="mx-4 my-6">
-            <p className="text-sm md:text-base lg:text-lg">
+            <p className="text-white text-sm md:text-base lg:text-lg">
               Learn a new skill, launch a project, land your dream career !
             </p>
           </div>
 
           <div className="mx-4 my-6">
-            <p className="text-3xl font-semibold lg:text-4xl">1-on-1</p>
+            <p className="text-white text-3xl font-semibold lg:text-4xl">1-on-1</p>
 
             <div>
               <ReactTyped
-                className="text-3xl font-semibold text-red-600"
+                className="text-indigo-300 text-3xl font-semibold text-red-600"
                 strings={[
                   "Web development",
                   "Software development",
@@ -58,17 +60,17 @@ export default function LandingPage() {
               />
             </div>
 
-            <p className="text-3xl font-semibold lg:text-4xl">Mentorship</p>
+            <p className="text-white text-3xl font-semibold lg:text-4xl">Mentorship</p>
           </div>
 
           <div className="mx-4">
-            <button className="bg-red-600 mr-2 font-semibold hover:bg-red-700 text-white p-2 rounded">
+            <button className="bg-violet-500 mr-2 font-semibold hover:bg-red-700 text-white p-2 rounded">
               <Link to="/login" className="text-base">
                 Find Mentors
               </Link>
             </button>
 
-            <button className="bg-red-600 mx-2 font-semibold hover:bg-red-700 text-white p-2 rounded">
+            <button className="border border-violet-300 mx-2 font-semibold hover:bg-red-700 text-white p-2 rounded">
               <Link to="/signupmentor" className="text-base">
                 Become A Mentor
               </Link>
@@ -94,7 +96,7 @@ export default function LandingPage() {
           </div>
         </section>
 
-        <section className="hidden md:block  w-3/12 lg:w-2/5 pr-2 py-10">
+        <section className="hidden md:block  w-3/12 lg:w-1/2 pr-4 py-10">
           <Swiper
             direction={"vertical"}
             pagination={{
@@ -107,11 +109,11 @@ export default function LandingPage() {
               delay: 2500,
               disableOnInteraction: false,
             }}
-            className="w-full h-60"
+            className="w-full h-60 lg:h-96"
           >
             <SwiperSlide>
 
-              <div className="bg-gray-100 p-2">
+              <div className="bg-gray-100 p-2 lg:flex">
                 <div>
                 <img
                             src={mentor1}
@@ -128,7 +130,7 @@ export default function LandingPage() {
             </SwiperSlide>
 
             <SwiperSlide>
-            <div className="bg-gray-100 p-2">
+            <div className="bg-gray-100 p-2 lg:flex">
                 <div>
                 <img
                             src={mentor3}
@@ -144,7 +146,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2">
+            <div className="bg-gray-100 p-2 lg:flex">
                 <div>
                 <img
                             src={mentor3}
@@ -160,7 +162,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2">
+            <div className="bg-gray-100 p-2 lg:flex">
                 <div>
                 <img
                             src={mentor3}
@@ -176,7 +178,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2">
+            <div className="bg-gray-100 p-2 lg:flex">
                 <div>
                 <img
                             src={mentor3}
@@ -192,7 +194,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2">
+            <div className="bg-gray-100 p-2 lg:flex">
                 <div>
                 <img
                             src={mentor3}
@@ -208,7 +210,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2">
+            <div className="bg-gray-100 p-2 lg:flex">
                 <div>
                 <img
                             src={mentor3}
@@ -224,7 +226,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2">
+            <div className="bg-gray-100 p-2 lg:flex">
                 <div>
                 <img
                             src={mentor3}
@@ -240,7 +242,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2">
+            <div className="bg-gray-100 p-2 lg:flex">
                 <div>
                 <img
                             src={mentor3}

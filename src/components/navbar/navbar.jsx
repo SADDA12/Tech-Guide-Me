@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <>
-      <section className="flex justify-between px-2.5 py-2 bg-gray-50 border-b lg:py-2">
+      <section className="flex justify-between px-2.5 py-2 bg-black border-b border-slate-500 lg:py-2 lg:px-8">
         <div>
           <Link to="/">
           <img src={whitehorizontal} alt="logo" className="w-36 h-10 md:w-48 md:h-12 lg:w-56 lg:h-16"/>
@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-xs focus:outline-none"
+            className="text-xs text-white focus:outline-none"
           >
             <svg
               className="w-6 h-6 mt-2"
@@ -77,22 +77,20 @@ export default function Navbar() {
 
 
 
-        <div className="hidden md:block lg:flex lg:gap-12">
+        <div className="hidden md:block ">
 
     
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 text-white font-semibold mt-4 lg:gap-10">
 
-            <Link>Become A mentor</Link>
+            <Link className="hover:text-slate-400">Become A mentor</Link>
 
-            <Link>Newsletter</Link>
+            <Link className="hover:text-slate-400">Newsletter</Link>
 
-            <Link>Login</Link>
+            <Link className="border rounded px-2 py-1 mb-1 lg:text lg:px-4 hover:text-slate-400 hover:border-slate-400">Login</Link>
 
-            <Link>Signup</Link>
+            <Link className="rounded px-2 py-1 mb-1 bg-violet-500 hover:bg-violet-700 lg:px-4">Signup</Link>
            
-
-            
           </div>
 
         </div>
