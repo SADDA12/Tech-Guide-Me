@@ -3,6 +3,10 @@ import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
 import { Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination, Autoplay } from "swiper/modules";
 
 import ceo from "../../assets/ceo.png";
 import webdev from "../../assets/webdev.jpg";
@@ -13,10 +17,9 @@ import mentee1 from "../../assets/mentee1.jpeg";
 import mentee2 from "../../assets/mentee2.jpeg";
 import mentee3 from "../../assets/mentee3.jpeg";
 import mentee4 from "../../assets/mentee4.jpeg";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination, Autoplay } from "swiper/modules";
+import mentor1 from "../../assets/m1.png";
+import mentor3 from "../../assets/m3.png";
+
 
 export default function LandingPage() {
   return (
@@ -87,7 +90,7 @@ export default function LandingPage() {
           </div>
         </section>
 
-        <section className="hidden md:block bg-red-100 w-3/12 lg:w-2/5">
+        <section className="hidden md:block  w-3/12 lg:w-2/5 pr-2 py-10">
           <Swiper
             direction={"vertical"}
             pagination={{
@@ -100,17 +103,154 @@ export default function LandingPage() {
               delay: 2500,
               disableOnInteraction: false,
             }}
-            className="w-full h-40"
+            className="w-full h-60"
           >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
-            <SwiperSlide>Slide 7</SwiperSlide>
-            <SwiperSlide>Slide 8</SwiperSlide>
-            <SwiperSlide>Slide 9</SwiperSlide>
+            <SwiperSlide>
+
+              <div className="bg-gray-100 p-2">
+                <div>
+                <img
+                            src={mentor1}
+                            alt="mentor profile"
+                            className="rounded"
+                          />
+                </div>
+                <div>
+                <h1 className="font-semibold text-lg">Micheal Kors</h1>
+                 <p>Senior Web developer at Yelp</p>
+                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <div className="bg-gray-100 p-2">
+                <div>
+                <img
+                            src={mentor3}
+                            alt="mentor profile"
+                            className="rounded"
+                          />
+                </div>
+                <div>
+                <h1 className="font-semibold text-lg">Micheal Kors</h1>
+                 <p>Senior Web developer at Yelp</p>
+                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className="bg-gray-100 p-2">
+                <div>
+                <img
+                            src={mentor3}
+                            alt="mentor profile"
+                            className="rounded"
+                          />
+                </div>
+                <div>
+                <h1 className="font-semibold text-lg">Micheal Kors</h1>
+                 <p>Senior Web developer at Yelp</p>
+                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className="bg-gray-100 p-2">
+                <div>
+                <img
+                            src={mentor3}
+                            alt="mentor profile"
+                            className="rounded"
+                          />
+                </div>
+                <div>
+                <h1 className="font-semibold text-lg">Micheal Kors</h1>
+                 <p>Senior Web developer at Yelp</p>
+                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className="bg-gray-100 p-2">
+                <div>
+                <img
+                            src={mentor3}
+                            alt="mentor profile"
+                            className="rounded"
+                          />
+                </div>
+                <div>
+                <h1 className="font-semibold text-lg">Micheal Kors</h1>
+                 <p>Senior Web developer at Yelp</p>
+                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className="bg-gray-100 p-2">
+                <div>
+                <img
+                            src={mentor3}
+                            alt="mentor profile"
+                            className="rounded"
+                          />
+                </div>
+                <div>
+                <h1 className="font-semibold text-lg">Micheal Kors</h1>
+                 <p>Senior Web developer at Yelp</p>
+                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className="bg-gray-100 p-2">
+                <div>
+                <img
+                            src={mentor3}
+                            alt="mentor profile"
+                            className="rounded"
+                          />
+                </div>
+                <div>
+                <h1 className="font-semibold text-lg">Micheal Kors</h1>
+                 <p>Senior Web developer at Yelp</p>
+                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className="bg-gray-100 p-2">
+                <div>
+                <img
+                            src={mentor3}
+                            alt="mentor profile"
+                            className="rounded"
+                          />
+                </div>
+                <div>
+                <h1 className="font-semibold text-lg">Micheal Kors</h1>
+                 <p>Senior Web developer at Yelp</p>
+                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className="bg-gray-100 p-2">
+                <div>
+                <img
+                            src={mentor3}
+                            alt="mentor profile"
+                            className="rounded"
+                          />
+                </div>
+                <div>
+                <h1 className="font-semibold text-lg">Micheal Kors</h1>
+                 <p>Senior Web developer at Yelp</p>
+                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                </div>
+              </div>
+            </SwiperSlide>
           </Swiper>
         </section>
       </section>
