@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import profilepic from "../../assets/profilepic.png";
-import whitehorizontal from "../../assets/whitehorizontal.png";
+import whitehorizontal from "../../assets/redvertical.png";
 
 export default function MentorDashboardNavbar() {
 
