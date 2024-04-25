@@ -19,6 +19,7 @@ import mentee3 from "../../assets/mentee3.jpeg";
 import mentee4 from "../../assets/mentee4.jpeg";
 import mentor1 from "../../assets/m1.png";
 import mentor3 from "../../assets/m3.png";
+import fourmentors from "../../assets/forumentors (1).png";
 
 
 export default function LandingPage() {
@@ -113,7 +114,7 @@ export default function LandingPage() {
           >
             <SwiperSlide>
 
-              <div className="bg-gray-100 p-2 lg:flex">
+              <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
                             src={mentor1}
@@ -130,7 +131,7 @@ export default function LandingPage() {
             </SwiperSlide>
 
             <SwiperSlide>
-            <div className="bg-gray-100 p-2 lg:flex">
+            <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
                             src={mentor3}
@@ -146,7 +147,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2 lg:flex">
+            <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
                             src={mentor3}
@@ -162,7 +163,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2 lg:flex">
+            <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
                             src={mentor3}
@@ -178,7 +179,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2 lg:flex">
+            <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
                             src={mentor3}
@@ -194,7 +195,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2 lg:flex">
+            <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
                             src={mentor3}
@@ -210,7 +211,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2 lg:flex">
+            <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
                             src={mentor3}
@@ -226,7 +227,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2 lg:flex">
+            <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
                             src={mentor3}
@@ -242,7 +243,7 @@ export default function LandingPage() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className="bg-gray-100 p-2 lg:flex">
+            <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
                             src={mentor3}
@@ -261,7 +262,7 @@ export default function LandingPage() {
         </section>
       </section>
 
-      <section id="ceo-section" className="md:p-16">
+      <section id="ceo-section" className="bg-gradient-to-b from-black to-purple-900 md:p-16">
         <div>
           <div className="bg-gray-100 py-10 rounded-lg lg:flex lg:py-16">
             <div id="CEOPROFILE" className="lg:w-2/5">
@@ -354,9 +355,25 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="explore-mentors-section" className="px-6 py-10">
+      <section className="bg-gradient-to-b from-purple-900 to-black px-6 py-10 md:flex">
+        <div className="md:w-1/2">
+        <h1 className="text-3xl text-center text-white font-bold lg:text-4xl">Connect and Learn with the <span className="text-indigo-300">Best Online Tech Mentors</span></h1>
+        <p className="text-center my-6 text-white lg:text-lg">Tech Guide Me is a community for Tech Enthusiasts. Engage in and benefit from 1-on-1 Mentorship and access to mentorship packages.</p>
+
+        <div className="flex justify-center">
+        <button className="text-white bg-indigo-500 hover:bg-indigo-600 p-2 rounded">Join TechGuideMe</button>
+        </div>
+        </div>
+
+        <div className="my-10 md:w-1/2">
+          <img src={fourmentors} alt="four mentors" />
+        </div>
+
+      </section>
+
+      <section id="explore-mentors-section" className="bg-gradient-to-b from-black to-purple-900 px-6 py-10">
         <div className="my-4">
-          <p className="text-center text-xl font-semibold md:text-2xl">
+          <p className="text-white text-center text-xl font-semibold md:text-2xl">
             Explore 100+ Available mentors
           </p>
         </div>
@@ -373,7 +390,7 @@ export default function LandingPage() {
                       className="w-5/6 h-48 rounded-lg"
                     />
                   </div>
-                  <p className="text-center font-semibold mt-2 md:text-lg">
+                  <p className="text-white text-center font-semibold mt-2 md:text-lg">
                     Web Development Mentors
                   </p>
                 </Link>
@@ -388,7 +405,7 @@ export default function LandingPage() {
                       className="w-5/6 h-48 rounded-lg lg:w-full"
                     />
                   </div>
-                  <p className="text-center font-semibold mt-2 md:text-lg">
+                  <p className="text-white text-center font-semibold mt-2 md:text-lg">
                     Data Science Mentors{" "}
                   </p>
                 </Link>
@@ -405,7 +422,7 @@ export default function LandingPage() {
                       className="w-5/6 h-48 rounded-lg lg:w-full"
                     />
                   </div>
-                  <p className="text-center font-semibold mt-2 md:text-lg">
+                  <p className="text-white text-center font-semibold mt-2 md:text-lg">
                     UI UX Design Mentors
                   </p>
                 </Link>
@@ -420,7 +437,7 @@ export default function LandingPage() {
                       className="w-5/6 h-48 rounded-lg"
                     />
                   </div>
-                  <p className="text-center font-semibold mt-2 md:text-lg">
+                  <p className="text-white text-center font-semibold mt-2 md:text-lg">
                     Cloud Computing Mentors
                   </p>
                 </Link>
@@ -430,7 +447,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section className="bg-red-600 py-10">
+      <section className="bg-gradient-to-b from-purple-900 to-black py-10">
         <div className="bg-white mx-8 rounded-lg p-6 md:flex md:justify-center">
           <div className="lg:flex lg:gap-6">
             <div className="flex gap-4 my-6">
