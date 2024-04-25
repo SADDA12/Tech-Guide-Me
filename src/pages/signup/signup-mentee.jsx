@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import googleicon from "../../assets/googleicon.png";
+import whitelogo from "../../assets/white-vertical.png";
 
 export default function SignupMentee() {
   const [formData, setFormData] = useState({
@@ -32,8 +33,10 @@ export default function SignupMentee() {
     <>
     <section className="flex justify-center">
 
-    <section className="hidden md:block bg-red-600 w-2/5 h-screen">
-        <p>gfgfgh</p>
+    <section className="hidden md:block bg-gradient-to-b from-purple-900 to-black w-2/5 h-screen md:flex md:justify-center md:items-center">
+        <div>
+          <img src={whitelogo} alt="logo" className="w-52 h-32 lg:w-80 lg:h-44"/>
+        </div>
     </section>
 
     <section className="py-10 px-6 w-11/12 md:w-4/5">
@@ -151,7 +154,7 @@ export default function SignupMentee() {
           </div>
           <div>
             <button
-              className="bg-red-600 text-white font-bold py-2 px-4 my-1 rounded w-full"
+              className="bg-violet-600 text-white font-bold py-2 px-4 my-1 rounded w-full"
               type="submit"
             >
               Sign Up
@@ -176,9 +179,9 @@ export default function SignupMentee() {
             </button>
           </div>
           <div>
-        <p className="text-sm md:text-base my-1">Already have an account? <Link to="/login" className="underline text-red-600">Log in</Link></p>
+        <p className="text-sm md:text-base my-1">Already have an account? <Link to="/login" className="underline text-indigo-500 hover:text-indigo-300">Log in</Link></p>
 
-        <p className="text-xs md:text-base">Looking to join us as a mentor? <Link to="/signupmentor" className="underline text-red-600">Apply Now</Link></p>
+        <p className="text-xs md:text-base">Looking to join us as a mentor? <Link to="/signupmentor" className="underline text-indigo-500 hover:text-indigo-300">Apply Now</Link></p>
       </div>
         </form>
         

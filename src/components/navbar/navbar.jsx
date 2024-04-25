@@ -65,7 +65,7 @@ export default function Navbar() {
                 </Link>
 
                 <Link
-                  to=""
+                  to="/signupmentee"
                   className="block text-sm px-4 py-2 "
                 >
                   Signup
@@ -83,13 +83,13 @@ export default function Navbar() {
 
           <div className="flex gap-4 text-white font-semibold mt-4 lg:gap-10">
 
-            <Link className="hover:text-slate-400">Become A mentor</Link>
+            <Link to="/signupmentor" className="hover:text-slate-400">Become A mentor</Link>
 
             <Link className="hover:text-slate-400">Newsletter</Link>
 
-            <Link className="border rounded px-2 py-1 mb-1 lg:text lg:px-4 hover:text-slate-400 hover:border-slate-400">Login</Link>
+            <Link to="/login" className="border rounded px-2 py-1 mb-1 lg:text lg:px-4 hover:text-slate-400 hover:border-slate-400">Login</Link>
 
-            <Link className="rounded px-2 py-1 mb-1 bg-violet-500 hover:bg-violet-700 lg:px-4">Signup</Link>
+            <Link to="/signupmentee" className="rounded px-2 py-1 mb-1 bg-violet-500 hover:bg-violet-700 lg:px-4">Signup</Link>
            
           </div>
 

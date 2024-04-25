@@ -17,8 +17,17 @@ import mentee1 from "../../assets/mentee1.jpeg";
 import mentee2 from "../../assets/mentee2.jpeg";
 import mentee3 from "../../assets/mentee3.jpeg";
 import mentee4 from "../../assets/mentee4.jpeg";
+
 import mentor1 from "../../assets/m1.png";
+import mentor2 from "../../assets/m2.png";
 import mentor3 from "../../assets/m3.png";
+import mentor4 from "../../assets/m4.png";
+import mentor5 from "../../assets/m5.png";
+import mentor6 from "../../assets/m6.png";
+import mentor7 from "../../assets/m7.png";
+import mentor8 from "../../assets/m8.png";
+import mentor9 from "../../assets/m9.png";
+
 import fourmentors from "../../assets/forumentors (1).png";
 
 
@@ -46,7 +55,7 @@ export default function LandingPage() {
 
             <div>
               <ReactTyped
-                className="text-indigo-300 text-3xl font-semibold text-red-600"
+                className="text-indigo-300 text-3xl font-semibold"
                 strings={[
                   "Web development",
                   "Software development",
@@ -65,13 +74,13 @@ export default function LandingPage() {
           </div>
 
           <div className="mx-4">
-            <button className="bg-violet-500 mr-2 font-semibold hover:bg-red-700 text-white p-2 rounded">
-              <Link to="/login" className="text-base">
+            <button className="bg-violet-500 mr-2 font-semibold hover:bg-violet-700 text-white p-2 rounded">
+              <Link to="/signupmentee" className="text-base">
                 Find Mentors
               </Link>
             </button>
 
-            <button className="border border-violet-300 mx-2 font-semibold hover:bg-red-700 text-white p-2 rounded">
+            <button className="border border-violet-300 mx-2 font-semibold hover:bg-violet-700 text-white p-2 rounded">
               <Link to="/signupmentor" className="text-base">
                 Become A Mentor
               </Link>
@@ -134,7 +143,7 @@ export default function LandingPage() {
             <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
-                            src={mentor3}
+                            src={mentor2}
                             alt="mentor profile"
                             className="rounded"
                           />
@@ -166,7 +175,7 @@ export default function LandingPage() {
             <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
-                            src={mentor3}
+                            src={mentor4}
                             alt="mentor profile"
                             className="rounded"
                           />
@@ -182,7 +191,7 @@ export default function LandingPage() {
             <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
-                            src={mentor3}
+                            src={mentor5}
                             alt="mentor profile"
                             className="rounded"
                           />
@@ -198,7 +207,7 @@ export default function LandingPage() {
             <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
-                            src={mentor3}
+                            src={mentor6}
                             alt="mentor profile"
                             className="rounded"
                           />
@@ -214,7 +223,7 @@ export default function LandingPage() {
             <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
-                            src={mentor3}
+                            src={mentor7}
                             alt="mentor profile"
                             className="rounded"
                           />
@@ -230,7 +239,7 @@ export default function LandingPage() {
             <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
-                            src={mentor3}
+                            src={mentor8}
                             alt="mentor profile"
                             className="rounded"
                           />
@@ -246,7 +255,7 @@ export default function LandingPage() {
             <div className="bg-gray-100 p-2 lg:flex lg:gap-4">
                 <div>
                 <img
-                            src={mentor3}
+                            src={mentor9}
                             alt="mentor profile"
                             className="rounded"
                           />
@@ -267,7 +276,7 @@ export default function LandingPage() {
           <div className="bg-gray-100 py-10 rounded-lg lg:flex lg:py-16">
             <div id="CEOPROFILE" className="lg:w-2/5">
               <div className="flex justify-center">
-                <div className="bg-white rounded p-2 lg:p-4">
+                <div className="bg-violet-500 rounded p-2 lg:p-4">
                   <div className="flex justify-between">
                     <div className="mt-8">
                       <p className="font-semibold lg:text-xl">James Morgan</p>
@@ -300,16 +309,16 @@ export default function LandingPage() {
             <div id="YTVTYVFTG" className="lg:w-3/5">
               <div className="">
                 <div className="m-6">
-                  <h1 className="text-xl font-semibold text-red-600 lg:text-2xl">
+                  <h1 className="text-xl font-semibold text-indigo-600 lg:text-2xl">
                     At your fingertips: a dedicated tech career coach
                   </h1>
 
                   <p className="lg:text-lg">
                     Want to start a new dream career in tech? Successfully build
                     your tech startup? Itching to learn high-demand skills? Work
-                    smaort with an online mentor by your side to offer expert
-                    advice and guidance to match your zeal. Cecome unstoppable
-                    using "app name"
+                    smart with an online mentor by your side to offer expert
+                    advice and guidance to match your zeal. Become unstoppable
+                    using <span className="text-indigo-600">TechGuideMe.</span>
                   </p>
                 </div>
               </div>
@@ -345,7 +354,7 @@ export default function LandingPage() {
                   </div>
                 </div>
 
-                <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded my-2">
+                <button className="bg-black font-semibold hover:bg-indigo-600 text-white p-2 rounded my-2">
                   <Link to="/login">Find a mentor</Link>
                   <i class="fa-solid fa-arrow-right ml-2"></i>
                 </button>
@@ -490,11 +499,11 @@ export default function LandingPage() {
 
         <div className="flex justify-center  my-6">
           <div>
-            <button className="bg-gray-100 font-semibold hover:bg-gray-300 text-red-600 p-2 rounded mb-2">
+            <button className="bg-black font-semibold hover:bg-indigo-600 text-white p-2 rounded mb-2">
               <Link to="/login">Find my mentor</Link>
             </button>
 
-            <p className="underline text-white hover:text-gray-200">
+            <p className="underline text-white hover:text-indigo-200">
               <Link to="/signupmentor">Become a mentor</Link>
             </p>
           </div>
@@ -515,7 +524,7 @@ export default function LandingPage() {
 
         <div className="lg:flex lg:justify-center">
           <div className="bg-white m-8 rounded-lg p-6">
-            <h1 className="text-2xl font-semibold my-4">
+            <h1 className="text-indigo-800 text-2xl font-semibold my-4">
               Introductory Call<i class="fa-solid fa-phone ml-2"></i>
             </h1>
 
@@ -528,7 +537,7 @@ export default function LandingPage() {
           </div>
 
           <div className="bg-white m-8 rounded-lg p-6">
-            <h1 className="text-2xl font-semibold my-4">
+            <h1 className="text-indigo-800 text-2xl font-semibold my-4">
               Study Plan<i class="fa-solid fa-graduation-cap ml-2"></i>
             </h1>
 
@@ -541,7 +550,7 @@ export default function LandingPage() {
           </div>
 
           <div className="bg-white m-8 rounded-lg p-6">
-            <h1 className="text-2xl font-semibold my-4">
+            <h1 className="text-indigo-800 text-2xl font-semibold my-4">
               Interview Preparation
               <i class="fa-solid fa-clipboard-question ml-2"></i>
             </h1>
@@ -565,7 +574,7 @@ export default function LandingPage() {
                 We've already delivered 1-on-1 mentorship to thousands of
                 students and professionals. See what others have to say
               </p>
-              <button className="mx-28 md:mx-0 bg-gray-100 font-semibold hover:bg-gray-300 text-red-600 p-2 rounded mt-4">
+              <button className="mx-28 md:mx-0 border border-indigo-300 font-semibold hover:bg-indigo-700 text-white p-2 rounded mt-4">
                 <Link to="/login">Find a mentor</Link>
               </button>
             </div>

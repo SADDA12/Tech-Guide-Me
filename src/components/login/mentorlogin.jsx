@@ -35,7 +35,7 @@ export default function MentorLogin() {
 
                 <div>
                   <button
-                    className="bg-red-600 text-white font-bold py-2 px-4 my-3 rounded w-full"
+                    className="bg-violet-600 text-white font-bold py-2 px-4 my-3 rounded w-full"
                     type="button"
                     onClick={handleLogin}
                   >
@@ -51,7 +51,7 @@ export default function MentorLogin() {
 
             <p className="">Don't have an account?</p>
 
-            <p className="text-sm"><Link to="/signupmentee" className="underline text-red-600">Signup as a mentee</Link> or <Link to="/signupmentor" className="underline text-red-600">apply to be a mentor</Link> </p>
+            <p className="text-sm"><Link to="/signupmentee" className="underline text-indigo-500 hover:text-indigo-300">Signup as a mentee</Link> or <Link to="/signupmentor" className="underline text-indigo-500 hover:text-indigo-300">apply to be a mentor</Link> </p>
         </>
     )
 }
