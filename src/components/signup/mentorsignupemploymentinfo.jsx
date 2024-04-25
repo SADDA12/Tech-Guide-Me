@@ -29,35 +29,7 @@ export default function MentorSignupEmploymentInfo() {
         <>
         <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={handleSubmit}>
         <p className="mb-2 font-semibold text-indigo-600">Employment Information</p>
-                                <div className="mb-4">
-                                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="firstName">
-                                    Current Employer
-                                    </label>
-                                    <input
-                                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                    id="currentEmployer"
-                                    type="text"
-                                    name="currentEmployer"
-                                    value={formData.currentEmployer}
-                                    onChange={handleInputChange}
-                                    required
-                                    />
-                                </div>
-                                <div className="mb-4">
-                                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="lastName">
-                                    Current Employer Website
-                                    </label>
-                                    <input
-                                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                    id="employerWebsite"
-                                    type="text"
-                                    name="employerWebsite"
-                                    value={formData.employerWebsite}
-                                    onChange={handleInputChange}
-                                    required
-                                    />
-                                </div>
-                                <div className="mb-4">
+                               <div className="mb-4">
                                     <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
                                     Current job title
                                     </label>
@@ -121,20 +93,6 @@ export default function MentorSignupEmploymentInfo() {
                                     type="text"
                                     name="skills"
                                     value={formData.skills}
-                                    onChange={handleInputChange}
-                                    required
-                                    />
-                                </div>
-                                <div className="mb-4">
-                                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-                                    Why are you interested in mentoring
-                                    </label>
-                                    <input
-                                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                    id="interest"
-                                    type="text"
-                                    name="interest"
-                                    value={formData.reason}
                                     onChange={handleInputChange}
                                     required
                                     />

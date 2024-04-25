@@ -35,7 +35,7 @@ export default function SignupMentor() {
                      </div>
 
                      <div>
-                        <p className="md:text-lg">
+                        <p className="text-white md:text-lg">
                             By clicking on "Submit" you agree to our Terms of Service and Privacy Policy.
                         </p>
 

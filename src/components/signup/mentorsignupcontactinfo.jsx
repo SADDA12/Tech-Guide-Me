@@ -152,33 +152,6 @@ export default function MentorSignupContactInfo() {
                                     required
                                     />
                                 </div>
-                                <div className="mb-4">
-                                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-                                    What are your preferred pronouns?
-                                    </label>
-                                    <select className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="pronouns">
-                                        <option>Please select</option>
-                                        <option>She/Her</option>
-                                        <option>He/Him</option>
-                                        <option>They/Them</option>
-                                        <option>Other</option>
-                                        <option>Prefer not to say</option>
-                                    </select>
-                                </div>
-                                <div className="mb-4">
-                                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-                                    LinkedIn Url
-                                    </label>
-                                    <input
-                                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                    id="url"
-                                    type="url"
-                                    name="url"
-                                    value={formData.url}
-                                    onChange={handleInputChange}
-                                    required
-                                    />
-                                </div>
                                 
                                 </form>    
         </>
