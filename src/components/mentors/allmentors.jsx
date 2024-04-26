@@ -25,9 +25,9 @@ export default function AllMentors() {
 
               <div className="lg:flex">
                 <div className="lg:w-1/2">
-                <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
+                <div className="flex justify-center w-[280px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
                     <div>
-                      <div className="p-2 md:flex md:gap-4">
+                      <div className="md:flex md:gap-4">
                         <div className="lg:w-1/2">
                           <img
                             src={mentor1}

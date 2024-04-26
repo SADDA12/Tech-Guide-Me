@@ -11,6 +11,7 @@ import MenteeDashboard from "./pages/menteedashboard/menteedashboard.jsx";
 import MentorDashboard from "./pages/mentordashboard/mentordashboard.jsx";
 import MyMenteesPage from "./pages/mentordashboard/mymenteespage.jsx";
 import MentorMessages from "./pages/mentordashboard/messages.jsx";
+import BookingForm from "./pages/bookingform.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <LandingPage /> },
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
   { path: "/mentordashboard", element: <MentorDashboard /> },
   { path: "/mymentees", element: <MyMenteesPage /> },
   { path: "/mentormessages", element: <MentorMessages /> },
+  { path: "/bookingform", element: <BookingForm /> },
 ]);
 
 function App() {
