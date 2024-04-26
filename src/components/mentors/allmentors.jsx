@@ -14,8 +14,9 @@ export default function AllMentors() {
               <div className="relative h-32 md:h-48 lg:h-72">
                 <div
                   className="absolute inset-0 bg-cover bg-center z-0"
-                  style={{ backgroundImage: `url(${allmentors})` }}
+                  style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${allmentors})` }}
                 ></div>
+              
                 <div className="relative z-10">
                   <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-3xl lg:pt-28">
                     All Mentors
@@ -50,9 +51,9 @@ export default function AllMentors() {
                           <p className="font-semibold">
                             <span className="text-xl">Ghs300</span> / month
                           </p>
-                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
-                            <Link to="/mentordetails">
-                            View profile
+                          <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
+                            <Link to="/bookingform">
+                            Book Now
                             </Link>
                           </button>
                         </div>
@@ -60,9 +61,9 @@ export default function AllMentors() {
                     </div>
                   </div>
 
-                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
+                  <div className="flex justify-center w-[280px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
                     <div>
-                      <div className="p-2 md:flex md:gap-4">
+                      <div className="md:flex md:gap-4">
                         <div className="lg:w-1/2">
                           <img
                             src={mentor3}
@@ -85,8 +86,10 @@ export default function AllMentors() {
                           <p className="font-semibold">
                             <span className="text-xl">Ghs300</span> / month
                           </p>
-                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
-                            View profile
+                          <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
+                            <Link to="/bookingform">
+                            Book Now
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -95,9 +98,9 @@ export default function AllMentors() {
                 </div>
 
                 <div className="lg:w-1/2">
-                <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
+                <div className="flex justify-center w-[280px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
                     <div>
-                      <div className="p-2 md:flex md:gap-4">
+                      <div className="md:flex md:gap-4">
                         <div className="lg:w-1/2">
                           <img
                             src={mentor6}
@@ -120,17 +123,19 @@ export default function AllMentors() {
                           <p className="font-semibold">
                             <span className="text-xl">Ghs300</span> / month
                           </p>
-                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
-                            View profile
+                          <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
+                            <Link to="/bookingform">
+                            Book Now
+                            </Link>
                           </button>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
+                  <div className="flex justify-center w-[280px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
                     <div>
-                      <div className="p-2 md:flex md:gap-4">
+                      <div className="md:flex md:gap-4">
                         <div className="lg:w-1/2">
                           <img
                             src={mentor12}
@@ -153,8 +158,10 @@ export default function AllMentors() {
                           <p className="font-semibold">
                             <span className="text-xl">Ghs300</span> / month
                           </p>
-                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
-                            View profile
+                          <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
+                            <Link to="/bookingform">
+                            Book Now
+                            </Link>
                           </button>
                         </div>
                       </div>

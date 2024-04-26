@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import mentor2 from "../../assets/m2.png";
 import mentor3 from "../../assets/m3.png";
 import mentor4 from "../../assets/m4.png";
@@ -12,8 +14,9 @@ export default function CloudComputingMentors() {
               <div className="relative h-32 md:h-48 lg:h-72">
                 <div
                   className="absolute inset-0 bg-cover bg-center z-0"
-                  style={{ backgroundImage: `url(${cloudcomputing})` }}
+                  style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url(${cloudcomputing})` }}
                 ></div>
+               
                 <div className="relative z-10">
                   <h1 className="text-xl text-center font-semibold text-white pt-10 md:text-2xl md:pt-20 lg:text-4xl lg:font-bold lg:pt-28">
                     Cloud Computing Mentors
@@ -23,9 +26,9 @@ export default function CloudComputingMentors() {
 
               <div className="lg:flex">
                 <div className="lg:w-1/2">
-                <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
+                <div className="flex justify-center w-[280px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
                     <div>
-                      <div className="p-2 md:flex md:gap-4">
+                      <div className="md:flex md:gap-4">
                         <div className="lg:w-1/2">
                           <img
                             src={mentor3}
@@ -48,17 +51,19 @@ export default function CloudComputingMentors() {
                           <p className="font-semibold">
                             <span className="text-xl">Ghs300</span> / month
                           </p>
-                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
-                            View profile
+                          <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
+                            <Link to="/bookingform">
+                            Book Now
+                            </Link>
                           </button>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
+                  <div className="flex justify-center w-[280px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
                     <div>
-                      <div className="p-2 md:flex md:gap-4">
+                      <div className="md:flex md:gap-4">
                         <div className="lg:w-1/2">
                           <img
                             src={mentor4}
@@ -81,8 +86,10 @@ export default function CloudComputingMentors() {
                           <p className="font-semibold">
                             <span className="text-xl">Ghs300</span> / month
                           </p>
-                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
-                            View profile
+                          <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
+                            <Link to="/bookingform">
+                            Book Now
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -91,9 +98,9 @@ export default function CloudComputingMentors() {
                 </div>
 
                 <div className="lg:w-1/2">
-                <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
+                <div className="flex justify-center w-[280px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
                     <div>
-                      <div className="p-2 md:flex md:gap-4">
+                      <div className="md:flex md:gap-4">
                         <div className="lg:w-1/2">
                           <img
                             src={mentor2}
@@ -116,17 +123,19 @@ export default function CloudComputingMentors() {
                           <p className="font-semibold">
                             <span className="text-xl">Ghs300</span> / month
                           </p>
-                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
-                            View profile
+                          <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
+                            <Link to="/bookingform">
+                            Book Now
+                            </Link>
                           </button>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="flex justify-center w-[330px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
+                  <div className="flex justify-center w-[280px] md:w-4/5 items-center m-8 border bg-gray-100 rounded">
                     <div>
-                      <div className="p-2 md:flex md:gap-4">
+                      <div className="md:flex md:gap-4">
                         <div className="lg:w-1/2">
                           <img
                             src={mentor5}
@@ -149,8 +158,10 @@ export default function CloudComputingMentors() {
                           <p className="font-semibold">
                             <span className="text-xl">Ghs300</span> / month
                           </p>
-                          <button className="bg-red-600 font-semibold hover:bg-red-700 text-white p-2 rounded">
-                            View profile
+                          <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
+                            <Link to="/bookingform">
+                            Book Now
+                            </Link>
                           </button>
                         </div>
                       </div>

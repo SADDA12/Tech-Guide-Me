@@ -21,49 +21,49 @@ export default function Mentors() {
         <Tabs>
           <TabList>
             <Tab>
-              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-red-600 hover:text-white">
+              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-indigo-600 hover:text-white">
                 All Mentors
               </button>
             </Tab>
 
             <Tab>
-              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-red-600 hover:text-white">
+              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-indigo-600 hover:text-white">
                 Web Development/Design
               </button>
             </Tab>
 
             <Tab>
-              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-red-600 hover:text-white">
+              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-indigo-600 hover:text-white">
                 Software Development
               </button>
             </Tab>
 
             <Tab>
-              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-red-600 hover:text-white">
+              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-indigo-600 hover:text-white">
                 Data
               </button>
             </Tab>
 
             <Tab>
-              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-red-600 hover:text-white">
+              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-indigo-600 hover:text-white">
                 Cloud Computing
               </button>
             </Tab>
 
             <Tab>
-              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-red-600 hover:text-white">
+              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-indigo-600 hover:text-white">
                 CyberSecurity
               </button>
             </Tab>
 
             <Tab>
-              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-red-600 hover:text-white">
+              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-indigo-600 hover:text-white">
                 Digital Marketing
               </button>
             </Tab>
 
             <Tab>
-              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-red-600 hover:text-white">
+              <button className="bg-gray-100 my-1 px-1 border rounded hover:bg-indigo-600 hover:text-white">
                 Ai/Machine Learning
               </button>
             </Tab>
