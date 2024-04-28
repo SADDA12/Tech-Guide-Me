@@ -140,8 +140,6 @@ export default function MenteeDashboardNavbar() {
                     <p className="text-sm">{user.email}</p>
                   </>
                 )}
-                {/* <p>{user.name}</p>
-                <p className="text-sm">{user.email}</p> */}
               </div>
             </div>
           </div>
