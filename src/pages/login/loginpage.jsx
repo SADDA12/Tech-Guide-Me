@@ -1,5 +1,5 @@
 import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Tabs } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
 import UserLogin from "../../components/login/userlogin.jsx";

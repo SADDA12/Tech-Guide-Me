@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LandingPage from "./pages/landing/landingpage.jsx";
 import ContactMentor from "./pages/contactmentor";
 import LoginPage from "./pages/login/loginpage.jsx";
-import MentorDetails from "./pages/mentordetails";
 import Mentors from "./pages/mentors/mentorspage.jsx";
 import SignupMentee from "./pages/signup/signup-mentee.jsx";
 import SignupMentor from "./pages/signup/signup-mentor.jsx";
@@ -17,7 +16,6 @@ const router = createBrowserRouter([
   { path: "/", element: <LandingPage /> },
   { path: "/contactmentor", element: <ContactMentor /> },
   { path: "/login", element: <LoginPage /> },
-  { path: "/mentordetails", element: <MentorDetails /> },
   { path: "/mentors", element: <Mentors /> },
   { path: "/signupmentee", element: <SignupMentee /> },
   { path: "/signupmentor", element: <SignupMentor /> },

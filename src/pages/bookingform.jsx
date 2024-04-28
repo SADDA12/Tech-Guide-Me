@@ -1,59 +1,63 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-const BookingForm = ({ mentors, onSubmit }) => {
-//   const [selectedMentor, setSelectedMentor] = useState('');
-//   const [selectedDate, setSelectedDate] = useState('');
+import MenteeDashboardNavbar from '../components/navbar/menteenavbar';
+import MenteeDashboardFooter from '../components/footer/menteefooter';
 
-//   const handleMentorChange = (e) => {
-//     setSelectedMentor(e.target.value);
-//   };
+import mentor1 from "../assets/m1.png"
 
-//   const handleDateChange = (e) => {
-//     setSelectedDate(e.target.value);
-//   };
+const BookingForm = () => {
 
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     onSubmit({ mentor: selectedMentor, date: selectedDate });
-//   };
 
   return (
-    <form  className="max-w-lg mx-auto">
-      <div className="mb-4">
-        <label htmlFor="mentor" className="block text-gray-700 font-bold mb-2">
-          Select a mentor:
-        </label>
-        <select
-          id="mentor"
-          name="mentor"
-         
-          
-          className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-        >
-          <option value="">Select a mentor</option>
-          
-        </select>
+    <>
+    <MenteeDashboardNavbar/>
+    <section className=''>
+        <div className="bg-gray-100 m-6 p-6 lg:mx-32 lg:my-12 rounded">
+         <div className='flex justify-center'>
+          <img src={mentor1} alt="mentor profile" className="w-2/3 md:w-1/3 border-2 border-white rounded-3xl"/>
+         </div>
+
+         <div className='my-4 text-center'>
+         <h1 className="font-semibold text-lg md:text-2xl">Micheal Cors <Link><i class="fa-brands fa-linkedin"></i></Link></h1>
+          <p className='text-sm md:text-lg'>Lead Technical Program Manager @ MasterCard</p>
+          <p className="text-red-600 md:text-xl">10 years of experience in Tech</p>
+          <p className='md:text-lg'>HTML | CSS | JavaScript | React | Node.js</p>
+         </div>
+        </div>
+
+
+   
+        <div className='flex justify-center'>
+        <div className="border-2 rounded p-4 my-4 w-10/12">
+            <h1 className='font-semibold text-lg text-center mb-2'>Select A Time Slot</h1>
+
+            <div>
+                <select>
+                    <option>02/04/2024 11:00am - 12:00pm</option>
+                    <option>02/04/2024 12:00pm - 01:00pm</option>
+                    <option>02/04/2024 01:00pm - 02:00pm</option>
+                    <option>02/04/2024 02:00pm - 03:00pm</option>
+                    <option>30/04/2024 01:30pm - 02:30pm</option>
+                    <option>30/04/2024 02:30pm - 03:30pm</option>
+                </select>
+                
+             </div>
+
+            <div className='mt-4'>
+                <button className='bg-indigo-500 hover:bg-indigo-700 text-white rounded p-2'>Book Appointment</button>
+            </div>
+        </div>
       </div>
-      <div className="mb-4">
-        <label htmlFor="date" className="block text-gray-700 font-bold mb-2">
-          Select a date:
-        </label>
-        <input
-          type="date"
-          id="date"
-          name="date"
-         
-          className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-        />
-      </div>
-      <button
-        type="submit"
-        
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-      >
-        Book
-      </button>
-    </form>
+
+    
+      </section>
+
+      
+
+    
+    <MenteeDashboardFooter/>
+    </>
   );
 };
 

@@ -1,23 +1,34 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
+import toast, { Toaster } from "react-hot-toast";
+
 import googleicon from "../../assets/googleicon.png";
 import whitelogo from "../../assets/white-vertical.png";
 
 export default function SignupMentee() {
   const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
+    username: "",
     email: "",
+    name: "",
     password: "",
+    role: "mentee",
   });
 
   const [showPassword, setShowPassword] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const navigate = useNavigate();
 
   const handleInputChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
+  };
+
+  const navigateToMenteeDashboard = () => {
+    navigate("/menteedashboard");
   };
 
   const togglePasswordVisibility = () => {
@@ -29,10 +40,43 @@ export default function SignupMentee() {
     // Handle form submission logic
   };
 
+  const handleSignup = async () => {
+    if (
+      !formData.username ||
+      !formData.email ||
+      !formData.name ||
+      !formData.password
+    ) {
+      toast.error("Please Complete the form", { position: "top-center" });
+      return;
+    }
+    try {
+      setLoading(true);
+      const response = await axios.post("/api/users/register", formData, {});
+      if (response.status === 201) {
+        toast.success("Mentee Account succesfully created.", {
+          position: "top-right",
+        });
+        localStorage.setItem(
+          "userData",
+          JSON.stringify(response.data.userData)
+        );
+        navigateToMenteeDashboard();
+        setLoading(false);
+      } else {
+        toast.success(response.error, {
+          position: "top-right",
+        });
+      }
+    } catch (error) {
+      toast.error("Invalid Credentials", { position: "top-right" });
+    }
+  };
+
   return (
     <>
       <section className="flex justify-center">
-        <section className="hidden md:block bg-gradient-to-b from-purple-900 to-black w-2/5 h-screen md:flex md:justify-center md:items-center">
+        <section className="hidden md:block bg-gradient-to-b from-purple-900 to-black w-2/5 md:flex md:justify-center md:items-center">
           <div>
             <img
               src={whitelogo}
@@ -48,40 +92,20 @@ export default function SignupMentee() {
           </div>
 
           <div className="flex justify-center items-center h-full">
-            <form
-              className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-11/12"
-              onSubmit={handleSubmit}
-            >
+            <form>
               <div className="mb-4">
                 <label
                   className="block text-gray-700 text-sm font-bold mb-2"
-                  htmlFor="firstName"
+                  htmlFor="username"
                 >
-                  First Name
+                  Username:
                 </label>
                 <input
                   className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                  id="firstName"
+                  id="username"
                   type="text"
-                  name="firstName"
-                  value={formData.firstName}
-                  onChange={handleInputChange}
-                  required
-                />
-              </div>
-              <div className="mb-4">
-                <label
-                  className="block text-gray-700 text-sm font-bold mb-2"
-                  htmlFor="lastName"
-                >
-                  Last Name
-                </label>
-                <input
-                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                  id="lastName"
-                  type="text"
-                  name="lastName"
-                  value={formData.lastName}
+                  name="username"
+                  value={formData.username}
                   onChange={handleInputChange}
                   required
                 />
@@ -91,7 +115,7 @@ export default function SignupMentee() {
                   className="block text-gray-700 text-sm font-bold mb-2"
                   htmlFor="email"
                 >
-                  Email
+                  Email:
                 </label>
                 <input
                   className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -99,6 +123,23 @@ export default function SignupMentee() {
                   type="email"
                   name="email"
                   value={formData.email}
+                  onChange={handleInputChange}
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                  htmlFor="name"
+                >
+                  Name:
+                </label>
+                <input
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="name"
+                  type="name"
+                  name="name"
+                  value={formData.name}
                   onChange={handleInputChange}
                   required
                 />
@@ -177,18 +218,17 @@ export default function SignupMentee() {
               <div>
                 <button
                   className="bg-violet-600 text-white font-bold py-2 px-4 my-1 rounded w-full"
-                  type="submit"
+                  type="button"
+                  onClick={handleSignup}
                 >
-                  Sign Up
+                  {loading ? "Loading..." : "Sign Up"}
                 </button>
               </div>
               <div>
                 <button
                   className="flex justify-center font-bold py-2 px-4 my-3 border rounded w-full"
                   type="button"
-                  onClick={() => {
-                    // Handle sign-up with Google logic
-                  }}
+                  onClick={handleSignup}
                 >
                   <div>
                     <img src={googleicon} alt="google icon" className="w-6" />

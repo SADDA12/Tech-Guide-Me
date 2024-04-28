@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -9,6 +10,22 @@ import MenteeDashboardFooter from "../../components/footer/menteefooter.jsx";
 
 
 export default function MenteeDashboard() {
+
+    const [user, setUser] = useState(localStorage.getItem("userData"));
+
+    useEffect(() => {
+        const userData = localStorage.getItem("userData");
+        if (userData) {
+          try {
+            const parsedData = JSON.parse(userData);
+            setUser(parsedData);
+          } catch (error) {
+            console.error('Error parsing localStorage data:', error);
+          }
+        }
+      }, []);
+    
+
     return(
         <>
         <MenteeDashboardNavbar/>
@@ -16,7 +33,10 @@ export default function MenteeDashboard() {
         <section className="bg-gradient-to-b from-black to-purple-900">
             <div className="py-10 px-4 lg:py-20">
             <div className="text-center">
-                <h1 className="text-white text-3xl font-bold my-2 md:text-4xl">Welcome, Sam!</h1>
+            <h1 className="text-white text-3xl font-bold my-2 md:text-4xl">
+              Welcome, {user && <span className="ml-1">{user.name}</span>}!
+            </h1>
+ 
                 <p className="text-white my-4 md:text-lg">Start connecting with mentors and get ready to take your career to the next level!</p>
                 <button className="bg-white hover:bg-gray-100 hover:text-indigo-600 px-4 py-2 rounded md:text-lg"><Link to="/mentors">Browse mentors</Link></button>
             </div>

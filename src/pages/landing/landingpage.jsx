@@ -119,7 +119,7 @@ export default function LandingPage() {
               delay: 2500,
               disableOnInteraction: false,
             }}
-            className="w-full h-60 lg:h-96"
+            className="w-full h-60 lg:h-80"
           >
             <SwiperSlide>
 
@@ -149,9 +149,9 @@ export default function LandingPage() {
                           />
                 </div>
                 <div>
-                <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                 <p>Senior Web developer at Yelp</p>
-                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                <h1 className="font-semibold text-lg">Kwaku Blankson</h1>
+                 <p>Dev Ops Engineer at Uber</p>
+                 <p className="font-semibold text-sm">configuration management | deployment</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -165,9 +165,9 @@ export default function LandingPage() {
                           />
                 </div>
                 <div>
-                <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                 <p>Senior Web developer at Yelp</p>
-                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                <h1 className="font-semibold text-lg">Diane Kors</h1>
+                 <p>Data Analyst at Kumfrey</p>
+                 <p className="font-semibold text-sm"> cleaning | visualization</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -181,9 +181,9 @@ export default function LandingPage() {
                           />
                 </div>
                 <div>
-                <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                 <p>Senior Web developer at Yelp</p>
-                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                <h1 className="font-semibold text-lg">Kimmy Chun</h1>
+                 <p>Cybersecurity Specialist at Mtn</p>
+                 <p className="font-semibold text-sm">network security | firewall management</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -197,9 +197,9 @@ export default function LandingPage() {
                           />
                 </div>
                 <div>
-                <h1 className="font-semibold text-lg">Micheal Kors</h1>
+                <h1 className="font-semibold text-lg">Christine Hernandez</h1>
                  <p>Senior Web developer at Yelp</p>
-                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                 <p className="font-semibold text-sm">frontend | backend | git | version control</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -213,9 +213,9 @@ export default function LandingPage() {
                           />
                 </div>
                 <div>
-                <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                 <p>Senior Web developer at Yelp</p>
-                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                <h1 className="font-semibold text-lg">Richard Diogo</h1>
+                 <p>Frontend developer at Amazon</p>
+                 <p className="font-semibold text-sm">html | css | javascript</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -229,9 +229,9 @@ export default function LandingPage() {
                           />
                 </div>
                 <div>
-                <h1 className="font-semibold text-lg">Micheal Kors</h1>
-                 <p>Senior Web developer at Yelp</p>
-                 <p className="font-semibold text-sm">Frontend | Backend | UI/UX | Version Control</p>
+                <h1 className="font-semibold text-lg">Michelle Carter</h1>
+                 <p>UI / UX designer at LinkedIn</p>
+                 <p className="font-semibold text-sm">UI | UX | Figma</p>
                 </div>
               </div>
             </SwiperSlide>
