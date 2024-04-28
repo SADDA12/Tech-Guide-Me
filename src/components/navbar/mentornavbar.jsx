@@ -1,12 +1,25 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import profilepic from "../../assets/profilepic.png";
-import whitehorizontal from "../../assets/redvertical.png";
+import whitelogo from "../../assets/white-horizontal.png";
 
 export default function MentorDashboardNavbar() {
 
     const [isOpen, setIsOpen] = useState(false);
+    const [user, setUser] = useState(localStorage.getItem("userData"));
+
+    useEffect(() => {
+      const userData = localStorage.getItem("userData");
+      if (userData) {
+        try {
+          const parsedData = JSON.parse(userData);
+          setUser(parsedData);
+        } catch (error) {
+          console.error('Error parsing localStorage data:', error);
+        }
+      }
+    }, []);
 
     const toggleMenu = () => {
       setIsOpen(!isOpen);
@@ -14,10 +27,10 @@ export default function MentorDashboardNavbar() {
 
     return(
         <>
-        <section className="bg-red-800 px-2.5 py-2 flex justify-between md:py-3 lg:px-6">
+        <section className="bg-black px-2.5 py-2 flex justify-between md:py-3 lg:px-6">
 
             <div className="hidden md:hidden lg:block">
-                <img src={whitehorizontal} alt="logo" className="w-48 h-14"/>
+                <img src={whitelogo} alt="logo" className="w-56 h-14"/>
             </div>
 
         <div className="lg:hidden">
@@ -94,10 +107,13 @@ export default function MentorDashboardNavbar() {
                 <img src={profilepic} alt="mentor profile" className="w-10 h-10 md:w-14 md:h-14 rounded-full"/>
             </div>
 
-            <div>
-                <h4 className="text-white font-semibold md:text-lg">James Brown</h4>
-                <p className="text-sm text-slate-300">brownj82@gmail.com</p>
-
+            <div className="text-white">
+            {user && (
+                    <>
+                      <p>{user.name}</p>
+                      <p className="text-sm">{user.email}</p>
+                    </>
+                  )}
             </div>
         </div>          
         </section>

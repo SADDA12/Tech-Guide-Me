@@ -39,7 +39,7 @@ export default function WebDevMentors() {
                         </div>
                         <div className="lg:w-1/2">
                           <h1 className="font-semibold text-lg">
-                            Micheal Kors
+                            George Hernandez
                           </h1>
                           <p>Senior Web developer at Yelp</p>
                           <p className="hidden md:block">
@@ -47,10 +47,10 @@ export default function WebDevMentors() {
                           </p>
 
                           <p className="font-semibold text-sm">
-                            Frontend | Backend | UI/UX | Version Control
+                            frontend | backend | git | version control
                           </p>
                           <p className="font-semibold">
-                            <span className="text-xl">Ghs300</span> / month
+                            <span className="text-xl">$30</span> / month
                           </p>
                           <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
                             <Link to="/bookingform">
@@ -74,18 +74,18 @@ export default function WebDevMentors() {
                         </div>
                         <div className="lg:w-1/2">
                           <h1 className="font-semibold text-lg">
-                            Micheal Kors
+                            Richard Diogo
                           </h1>
-                          <p>Senior Web developer at Yelp</p>
+                          <p>Frontend developer at Amazon</p>
                           <p className="hidden md:block">
-                            10 years of experience
+                            5 years of experience
                           </p>
 
                           <p className="font-semibold text-sm">
-                            Frontend | Backend | UI/UX | Version Control
+                            html | css | javascript
                           </p>
                           <p className="font-semibold">
-                            <span className="text-xl">Ghs300</span> / month
+                            <span className="text-xl">$18</span> / month
                           </p>
                           <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
                             <Link to="/bookingform">
@@ -111,18 +111,18 @@ export default function WebDevMentors() {
                         </div>
                         <div className="lg:w-1/2">
                           <h1 className="font-semibold text-lg">
-                            Micheal Kors
+                            Michelle Carter
                           </h1>
-                          <p>Senior Web developer at Yelp</p>
+                          <p>UI / UX designer at LinkedIn</p>
                           <p className="hidden md:block">
-                            10 years of experience
+                            3 years of experience
                           </p>
 
                           <p className="font-semibold text-sm">
-                            Frontend | Backend | UI/UX | Version Control
+                            UI | UX | Figma
                           </p>
                           <p className="font-semibold">
-                            <span className="text-xl">Ghs300</span> / month
+                            <span className="text-xl">$15</span> / month
                           </p>
                           <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
                             <Link to="/bookingform">
@@ -146,18 +146,18 @@ export default function WebDevMentors() {
                         </div>
                         <div className="lg:w-1/2">
                           <h1 className="font-semibold text-lg">
-                            Micheal Kors
+                            Tory Grande
                           </h1>
-                          <p>Senior Web developer at Yelp</p>
+                          <p>Senior UI Designer at Google</p>
                           <p className="hidden md:block">
-                            10 years of experience
+                            10+ years of experience
                           </p>
 
                           <p className="font-semibold text-sm">
-                            Frontend | Backend | UI/UX | Version Control
+                           prototyping | motion design | color theory
                           </p>
                           <p className="font-semibold">
-                            <span className="text-xl">Ghs300</span> / month
+                            <span className="text-xl">$40</span> / month
                           </p>
                           <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
                             <Link to="/bookingform">

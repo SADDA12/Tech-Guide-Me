@@ -1,14 +1,19 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import googleicon from "../../assets/googleicon.png";
-import whitelogo from "../../assets/white-vertical.png";
 
-export default function SignupMentee() {
+export default function UserSignup() {
   const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
+    username: "",
     email: "",
+    name: "",
     password: "",
+    role: "",
+    availability_start: "",
+    availability_end: "",
+    position: "",
+    company: "",
+    skills: "",
+    description: "",
+    ratehour: "",
   });
 
   const [showPassword, setShowPassword] = useState(false);
@@ -44,14 +49,13 @@ export default function SignupMentee() {
 
         <section className="py-10 px-6 w-11/12 md:w-4/5">
           <div className="my-4">
-            <h1 className="text-center font-bold text-2xl">Signup as Mentee</h1>
+            <h1 className="text-center font-bold text-2xl">
+              Signup as on Our Platform
+            </h1>
           </div>
 
           <div className="flex justify-center items-center h-full">
-            <form
-              className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-11/12"
-              onSubmit={handleSubmit}
-            >
+            <form>
               <div className="mb-4">
                 <label
                   className="block text-gray-700 text-sm font-bold mb-2"

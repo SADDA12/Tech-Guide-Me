@@ -38,18 +38,18 @@ export default function SoftwareDevMentors() {
                         </div>
                         <div className="lg:w-1/2">
                           <h1 className="font-semibold text-lg">
-                            Micheal Kors
+                            Kayla Bluw
                           </h1>
-                          <p>Senior Web developer at Yelp</p>
+                          <p>Software developer at Concaris</p>
                           <p className="hidden md:block">
-                            10 years of experience
+                            7 years of experience
                           </p>
 
                           <p className="font-semibold text-sm">
-                            Frontend | Backend | UI/UX | Version Control
+                            python | java | php | testing
                           </p>
                           <p className="font-semibold">
-                            <span className="text-xl">Ghs300</span> / month
+                            <span className="text-xl">$25</span> / month
                           </p>
                           <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
                             <Link to="/bookingform">
@@ -73,18 +73,18 @@ export default function SoftwareDevMentors() {
                         </div>
                         <div className="lg:w-1/2">
                           <h1 className="font-semibold text-lg">
-                            Micheal Kors
+                            Jorish Mills
                           </h1>
-                          <p>Senior Web developer at Yelp</p>
+                          <p>Software developer at Vodafone</p>
                           <p className="hidden md:block">
-                            10 years of experience
+                            2 years of experience
                           </p>
 
                           <p className="font-semibold text-sm">
-                            Frontend | Backend | UI/UX | Version Control
+                            authentication | security | debugging
                           </p>
                           <p className="font-semibold">
-                            <span className="text-xl">Ghs300</span> / month
+                            <span className="text-xl">$13</span> / month
                           </p>
                           <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
                             <Link to="/bookingform">
@@ -110,18 +110,18 @@ export default function SoftwareDevMentors() {
                         </div>
                         <div className="lg:w-1/2">
                           <h1 className="font-semibold text-lg">
-                            Micheal Kors
+                            Jess Carter
                           </h1>
-                          <p>Senior Web developer at Yelp</p>
+                          <p>Software Engineer at Google</p>
                           <p className="hidden md:block">
-                            10 years of experience
+                            4 years of experience
                           </p>
 
                           <p className="font-semibold text-sm">
-                            Frontend | Backend | UI/UX | Version Control
+                            data structures | security 
                           </p>
                           <p className="font-semibold">
-                            <span className="text-xl">Ghs300</span> / month
+                            <span className="text-xl">$20</span> / month
                           </p>
                           <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
                             <Link to="/bookingform">
@@ -145,15 +145,15 @@ export default function SoftwareDevMentors() {
                         </div>
                         <div className="lg:w-1/2">
                           <h1 className="font-semibold text-lg">
-                            Micheal Kors
+                            Micheal Gibson
                           </h1>
-                          <p>Senior Web developer at Yelp</p>
+                          <p>Software developer at Yelp</p>
                           <p className="hidden md:block">
-                            10 years of experience
+                            10+ years of experience
                           </p>
 
                           <p className="font-semibold text-sm">
-                            Frontend | Backend | UI/UX | Version Control
+                            software design | cloud 
                           </p>
                           <p className="font-semibold">
                             <span className="text-xl">Ghs300</span> / month

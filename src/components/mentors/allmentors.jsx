@@ -38,7 +38,7 @@ export default function AllMentors() {
                         </div>
                         <div className="lg:w-1/2">
                           <h1 className="font-semibold text-lg">
-                            Micheal Kors
+                            James Boakye
                           </h1>
                           <p>Senior Web developer at Yelp</p>
                           <p className="hidden md:block">
@@ -49,7 +49,7 @@ export default function AllMentors() {
                             Frontend | Backend | UI/UX | Version Control
                           </p>
                           <p className="font-semibold">
-                            <span className="text-xl">Ghs300</span> / month
+                            <span className="text-xl">$30</span> / month
                           </p>
                           <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
                             <Link to="/bookingform">
@@ -73,18 +73,18 @@ export default function AllMentors() {
                         </div>
                         <div className="lg:w-1/2">
                           <h1 className="font-semibold text-lg">
-                            Micheal Kors
+                            Kwasi Blankson
                           </h1>
-                          <p>Senior Web developer at Yelp</p>
+                          <p>Dev Ops Engineer at Uber</p>
                           <p className="hidden md:block">
-                            10 years of experience
+                            8 years of experience
                           </p>
 
                           <p className="font-semibold text-sm">
-                            Frontend | Backend | UI/UX | Version Control
+                            configuration management | deployment
                           </p>
                           <p className="font-semibold">
-                            <span className="text-xl">Ghs300</span> / month
+                            <span className="text-xl">$28</span> / month
                           </p>
                           <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
                             <Link to="/bookingform">
@@ -110,18 +110,18 @@ export default function AllMentors() {
                         </div>
                         <div className="lg:w-1/2">
                           <h1 className="font-semibold text-lg">
-                            Micheal Kors
+                            Diane Kors
                           </h1>
-                          <p>Senior Web developer at Yelp</p>
+                          <p>Data Analyst at Kumfrey</p>
                           <p className="hidden md:block">
-                            10 years of experience
+                            5 years of experience
                           </p>
 
                           <p className="font-semibold text-sm">
-                            Frontend | Backend | UI/UX | Version Control
+                            cleaning | visualization 
                           </p>
                           <p className="font-semibold">
-                            <span className="text-xl">Ghs300</span> / month
+                            <span className="text-xl">$20</span> / month
                           </p>
                           <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
                             <Link to="/bookingform">
@@ -145,18 +145,18 @@ export default function AllMentors() {
                         </div>
                         <div className="lg:w-1/2">
                           <h1 className="font-semibold text-lg">
-                            Micheal Kors
+                            Kimmy Chun
                           </h1>
-                          <p>Senior Web developer at Yelp</p>
+                          <p>Cybersecurity Specialist at Mtn</p>
                           <p className="hidden md:block">
-                            10 years of experience
+                            4 years of experience
                           </p>
 
                           <p className="font-semibold text-sm">
-                            Frontend | Backend | UI/UX | Version Control
+                            network security | firewall management
                           </p>
                           <p className="font-semibold">
-                            <span className="text-xl">Ghs300</span> / month
+                            <span className="text-xl">$18</span> / month
                           </p>
                           <button className="bg-indigo-600 font-semibold hover:bg-indigo-800 text-white p-2 rounded">
                             <Link to="/bookingform">
